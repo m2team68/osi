@@ -1,0 +1,312 @@
+/*
+Theme Name: OSI
+Text Domain: osi
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: MIS
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+:root {
+    --osi-orange: #bd6126;
+    --osi-green: #18bd6b;
+}
+
+
+body {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+@keyframes osi-logo-small-ring {
+    0% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}
+@keyframes osi-logo-big-ring {
+    from {
+        opacity: 0.2;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    to {
+        height: 150%;
+        width: 150%;
+        top: -25%;
+        left: -25%;
+        opacity: 0;
+    }
+}
+.osi-logo-bg {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.3;
+    border-radius: 100%;
+    transition: all 0.9s ease-in;
+    transition-property: background-color,opacity;
+    z-index: 1;
+}
+.osi-logo-icon {
+    position: absolute;
+    left: 34%;
+    top: 34%;
+    width: 32%;
+    height: 32%;
+    background-color: var(--osi-orange);
+    border: white 8px solid;
+    cursor: pointer;
+    z-index: 5;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.9s ease-out;
+    transition-property: height, width, top, left, box-shadow, opacity;
+}
+.osi-logo {
+    display: inline-block;
+    width: 162px;
+    height: 162px;
+    cursor: pointer;
+    position: relative;
+}
+.osi-logo:hover .osi-logo-bg{
+    opacity: 0.6;
+}
+.osi-logo:hover .osi-logo-icon {
+    opacity: 1;
+}
+.osi-logo-bg:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*border: #e4e4e3 2px solid;*/
+    box-shadow: 0 0 0 3px #e4e4e3;
+    opacity: 0.4;
+    border-radius: 100%;
+    animation-name: osi-logo-big-ring;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transition: all 0.9s ease-out;
+    transition-property: height, width, top, left, box-shadow, opacity;
+}
+.osi-logo.active .osi-logo-bg {
+    cursor: pointer;
+    opacity: 0.6;
+    background-color: var(--osi-green);
+}
+.osi-logo.active .osi-logo-bg::after {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: unset;
+    box-shadow: 0 0 0 40px #e4e4e3;
+}
+.osi-logo.active .osi-logo-icon {
+    opacity: 0.9;
+}
+.first-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-size: cover;
+    position: relative;
+}
+.section * {
+    z-index: 2;
+}
+.section-overlay {
+    background: #00000099;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.first-page .osi-text-label {
+    display: none;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.first-page .osi-text-label:hover {
+    opacity: 1;
+    transition: opacity 0.37s ease-in;
+}
+.osi-text-label {
+    font-size: 3.4em;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*transform: scale(.8, 1);*/
+}
+.osi-text-label::before {
+    position: absolute;
+    top: 100%;
+    content: "";
+    width: 60%;
+    left: 20%;
+    border-top: white 3px solid;
+}
+.osi-text-label.no-border::before {
+    display: none !important;
+}
+@keyframes key-visual {
+    from { width: 0% }
+    to { width: 36% }
+}
+.osi-text-label .key-visual::after {
+    content: "";
+    height: 36%;
+    width: 0;
+    background: var(--osi-orange);
+    position: absolute;
+    top: 36%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.key-visual.active::after {
+    animation-delay: 0.7s;
+    animation-name: key-visual;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.osi-text-label .key-visual.left::after {
+    left: -20px;
+}
+.osi-text-label .key-visual.right::after {
+    right: -20px;
+}
+.first-page .osi-text-label {
+    position: absolute;
+}
+
+.osi-text-label.excellency {
+    left: 10%;
+    top: 55%;
+    font-size: 3em;
+}
+.osi-text-label.collaboration {
+    right: 7%;
+    top: 25%;
+    font-size: 3em;
+}
+.osi-text-label.innovation {
+    right: 17%;
+    bottom: 20%;
+    font-size: 3.6em;
+}
+.osi-text-label.f-collaboration {
+    font-size: 4em;
+    text-align: left;
+}
+.f-collaboration-main {
+    position: absolute;
+    top: 30%;
+    right: 76px;
+    width: 1000px;
+}
+.osi-desc {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    font-size: 20px;
+}
+.osi-desc::before {
+    content: "";
+    width: 40%;
+    border-top: #fff 2px solid;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.osi-desc::after {
+    content: "";
+    width: 60%;
+    border-top: #fff 2px solid;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.osi-desc.f-collaboration-desc {
+    text-align: left;
+    display: none;
+}
+/**
+Header
+ */
+
+header.osi-header {
+    display: flex;
+    height: 76px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+header.osi-header .logo {
+    height: 100%;
+}
+
+header.osi-header .logo img {
+    width: auto;
+    height: 100%;
+}
+
+.osi-header .header-menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: end;
+}
+.osi-header .header-menu .menu {
+    margin-bottom: unset;
+    padding-left: unset;
+}
+.osi-header .header-menu > div {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.osi-header .header-menu .menu li {
+    display: inline-block;
+}
+.osi-header .header-menu .menu li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 20px;
+}
