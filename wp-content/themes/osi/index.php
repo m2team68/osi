@@ -159,6 +159,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $(".osi-text-label.excellency").fadeIn(900);
                     $("#scroll-down-container").fadeIn(900);
                 }, 1000);
+                $.scrollify.enable();
             } else {
                 // $(".first-page-label").fadeIn(400);
                 $(".first-page-label").removeClass("active");
@@ -171,6 +172,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $(".osi-text-label.excellency").fadeOut(300);
                     $("#scroll-down-container").fadeOut(300);
                 }, 1000);
+                $.scrollify.disable();
             }
         }
 
@@ -270,6 +272,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $(".pagination a").on("click",$.scrollify.move);
                 }
             });
+            $.scrollify.disable();
         });
     </script>
 
