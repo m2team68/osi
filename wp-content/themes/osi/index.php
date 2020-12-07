@@ -24,25 +24,25 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
     <div id="fullpage">
         <ul class="nav-pagination">
             <li>
-                <a class="active" href="#home">
+                <a class="active" data-href="#home" onclick="scrollifyTo('home')">
                     <div class="page-index">01</div>
                     <div class="hover-text">Home</div>
                 </a>
             </li>
             <li>
-                <a class="" href="#collaboration">
+                <a class="" data-href="#collaboration" onclick="scrollifyTo('collaboration')">
                     <span class="page-index">02</span>
                     <div class="hover-text">Collaboration</div>
                 </a>
             </li>
             <li>
-                <a class="" href="#excellency">
+                <a class="" data-href="#excellency" onclick="scrollifyTo('excellency')">
                     <span class="page-index">03</span>
                     <div class="hover-text">Excellency</div>
                 </a>
             </li>
             <li>
-                <a class="" href="#innovation">
+                <a class="" data-href="#innovation" onclick="scrollifyTo('innovation')">
                     <span class="page-index">04</span>
                     <div class="hover-text">Innovation</div>
                 </a>
@@ -243,8 +243,8 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                 section: ".section",
                 scrollSpeed: 1500,
                 offset : 0,
-                sectionName: false,
                 easing: "swing",
+                updateHash: false,
                 scrollbars: false,
                 after: function (index, section) {
                     const nextSection = $($(section).get(index));
@@ -267,7 +267,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 
                     $(".nav-pagination .active").removeClass("active");
 
-                    $(".nav-pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
+                    $(".nav-pagination").find("a[data-href=\"#" + ref + "\"]").addClass("active");
                 },
                 afterRender:function() {
                     var pagination = "<ul class=\"pagination\">";

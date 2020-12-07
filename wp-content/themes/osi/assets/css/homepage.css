@@ -109,6 +109,7 @@
     color: white;
     position: relative;
     padding: 4px;
+    cursor: pointer;
 }
 
 .nav-pagination a .hover-text {

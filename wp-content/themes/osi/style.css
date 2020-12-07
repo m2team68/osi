@@ -22,8 +22,13 @@ with others.
     src: url('assets/fonts/impact/impact.ttf');
     font-display: swap;
 }
+@font-face {
+    font-family: 'modeco';
+    src: url('assets/fonts/modeco/ModecoTrial-Regular.otf');
+    font-display: swap;
+}
 * {
-    font-family: impact, 'sans-serif';
+    font-family: modeco, 'sans-serif';
 }
 body {
     background-color: #333 !important;
@@ -167,6 +172,7 @@ body {
     max-height: 191px;
     transition: all 1s ease-out, opacity 0.6s;
     opacity: 1;
+    font-family: impact, 'sans-serif';
 }
 .first-page-label.active {
     max-height: 0;
@@ -176,9 +182,11 @@ body {
 .first-page-label .big-label {
     font-size: 147px;
     line-height: 100%;
+    font-family: impact, 'sans-serif';
 }
 .first-page-label .small-label {
     font-size: 30px;
+    font-family: impact, 'sans-serif';
 }
 #first-page-logo .click-me {
     position: absolute;
@@ -215,6 +223,7 @@ body {
     display: none;
     cursor: pointer;
     opacity: 0.6;
+    font-family: impact, 'sans-serif';
 }
 .first-page .osi-text-label:hover {
     opacity: 1;
@@ -224,6 +233,7 @@ body {
     font-size: 3.4em;
     position: relative;
     text-transform: uppercase;
+    font-family: impact, 'sans-serif';
     /*transform: scale(.8, 1);*/
 }
 .osi-text-label::before {
@@ -247,7 +257,7 @@ body {
     width: 0;
     background: var(--osi-orange);
     position: absolute;
-    top: 36%;
+    top: 32%;
     z-index: -1;
     opacity: 0.8;
 }
