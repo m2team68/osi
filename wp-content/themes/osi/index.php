@@ -73,7 +73,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             <div class="section-overlay"></div>
             <div class="f-main f-collaboration-main">
                 <div class="osi-text-label f-title no-border f-collaboration">
-                    Harmonize Collaboration
+                    Collaboration
                     <div class="key-visual right"></div>
                 </div>
                 <div class="clear-both"></div>
