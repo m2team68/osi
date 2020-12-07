@@ -15,14 +15,15 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned
 with others.
 */
+@import "var.css";
 @import "assets/css/homepage.css";
-
-:root {
-    --osi-orange: #bd6126;
-    --osi-green: #006f3c;
-    --cta-border-color: #E94E3D;
+@font-face {
+    font-family: 'impact';
+    src: url('assets/fonts/impact/impact.ttf');
 }
-
+* {
+    font-family: impact, 'sans-serif';
+}
 body {
     background-color: #333 !important;
     color: #fff !important;
@@ -160,7 +161,6 @@ body {
 }
 .first-page-label {
     text-align: center;
-    font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 30px;
     max-height: 191px;
@@ -223,7 +223,6 @@ body {
     font-size: 3.4em;
     position: relative;
     text-transform: uppercase;
-    font-weight: bold;
     /*transform: scale(.8, 1);*/
 }
 .osi-text-label::before {
@@ -486,7 +485,6 @@ header.osi-header .logo img {
 .osi-header .header-menu .menu li a {
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 20px;
     padding: 0 20px;
 }

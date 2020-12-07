@@ -23,10 +23,30 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 
     <div id="fullpage">
         <ul class="pagination">
-            <li><a class="active" href="#home"><span class="hover-text">Home</span></a></li>
-            <li><a class="" href="#collaboration"><span class="hover-text">Collaboration</span></a></li>
-            <li><a class="" href="#excellency"><span class="hover-text">Excellency</span></a></li>
-            <li><a class="" href="#innovation"><span class="hover-text">Innovation</span></a></li>
+            <li>
+                <a class="active" href="#home">
+                    <div class="page-index">01</div>
+                    <div class="hover-text">Home</div>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#collaboration">
+                    <span class="page-index">02</span>
+                    <div class="hover-text">Collaboration</div>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#excellency">
+                    <span class="page-index">03</span>
+                    <div class="hover-text">Excellency</div>
+                </a>
+            </li>
+            <li>
+                <a class="" href="#innovation">
+                    <span class="page-index">04</span>
+                    <div class="hover-text">Innovation</div>
+                </a>
+            </li>
         </ul>
         <div class="section first-page active" data-section-name="home" style="background-image: url('<?= $homeBg ?>')">
             <div class="section-overlay"></div>
@@ -272,7 +292,6 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $(".pagination a").on("click",$.scrollify.move);
                 }
             });
-            $.scrollify.disable();
         });
     </script>
 
