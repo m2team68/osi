@@ -112,7 +112,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
-                Who we are
+                Our Products & Services
             </div>
         </div>
         <div class="section feature-innovation" data-section-name="innovation"
@@ -135,7 +135,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
-                Who we are
+                Our Creators
             </div>
         </div>
     </div>
