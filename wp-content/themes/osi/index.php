@@ -22,7 +22,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 ?>
 
     <div id="fullpage">
-        <ul class="pagination">
+        <ul class="nav-pagination">
             <li>
                 <a class="active" href="#home">
                     <div class="page-index">01</div>
@@ -180,6 +180,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $("#scroll-down-container").fadeIn(900);
                 }, 1000);
                 $.scrollify.enable();
+                $(".nav-pagination").fadeIn();
             } else {
                 // $(".first-page-label").fadeIn(400);
                 $(".first-page-label").removeClass("active");
@@ -193,6 +194,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $("#scroll-down-container").fadeOut(300);
                 }, 1000);
                 $.scrollify.disable();
+                $(".nav-pagination").fadeOut();
             }
         }
 
@@ -263,9 +265,9 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 
                     var ref = panels[i].attr("data-section-name");
 
-                    $(".pagination .active").removeClass("active");
+                    $(".nav-pagination .active").removeClass("active");
 
-                    $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
+                    $(".nav-pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
                 },
                 afterRender:function() {
                     var pagination = "<ul class=\"pagination\">";
@@ -285,12 +287,12 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 
                     Tip: The two click events below are the same:
 
-                    $(".pagination a").on("click",function() {
+                    $(".nav-pagination a").on("click",function() {
                       $.scrollify.move($(this).attr("href"));
                     });
 
                     */
-                    $(".pagination a").on("click",$.scrollify.move);
+                    $(".nav-pagination a").on("click",$.scrollify.move);
                 }
             });
             $.scrollify.disable();
