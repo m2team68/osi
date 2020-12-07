@@ -1,0 +1,151 @@
+#scroll-down-container {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    cursor: pointer;
+}
+#scroll-down-container * {
+    cursor: pointer;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.text {
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.pagination {
+    position:fixed;
+    right:20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size:1.4em;
+    z-index: 10;
+    flex-direction: column;
+}
+.pagination a {
+    display:block;
+    height:20px;
+    margin-bottom:5px;
+    color:white;
+    position:relative;
+    padding:4px;
+}
+.pagination a .hover-text {
+    font-size: 13px;
+    color: white;
+    bottom: 2px;
+    top: unset !important;
+}
+.pagination a.active:after {
+    box-shadow:inset 0 0 0 5px;
+}
+.pagination a .hover-text {
+    position:absolute;
+    right:15px;
+    top:7px;
+    opacity:0;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    padding-right: 15px;
+}
+.pagination a:hover .hover-text {
+    opacity: 1;
+}
+.pagination a:after {
+    -webkit-transition:box-shadow 0.5s ease;
+    transition:box-shadow 0.5s ease;
+    width:10px;
+    height:10px;
+    display: block;
+    border:1px solid;
+    border-radius:50%;
+    content:'';
+    position: absolute;
+    margin:auto;
+    top:0;
+    right:4px;
+    bottom:0;
+}
+
+ol, ul {
+    list-style: none;
+}

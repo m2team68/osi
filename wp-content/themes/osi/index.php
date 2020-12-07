@@ -17,110 +17,261 @@
 get_header();
 $homeBg = get_theme_file_uri('assets/images/home_bg.jpg');
 $featureBg = get_theme_file_uri('assets/images/feature_bg.jpg');
+$featureInnovation = get_theme_file_uri('assets/images/feature_innovation.jpg');
+$featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 ?>
 
-<div id="fullpage">
-    <div class="section first-page active" data-section-name="home" style="background-image: url('<?= $homeBg ?>')">
-        <div class="section-overlay"></div>
-        <div id="first-page-logo" class="osi-logo">
-            <div class="osi-logo-bg"></div>
-            <div class="osi-logo-icon"></div>
-        </div>
+    <div id="fullpage">
+        <ul class="pagination">
+            <li><a class="active" href="#home"><span class="hover-text">Home</span></a></li>
+            <li><a class="" href="#collaboration"><span class="hover-text">Collaboration</span></a></li>
+            <li><a class="" href="#excellency"><span class="hover-text">Excellency</span></a></li>
+            <li><a class="" href="#innovation"><span class="hover-text">Innovation</span></a></li>
+        </ul>
+        <div class="section first-page active" data-section-name="home" style="background-image: url('<?= $homeBg ?>')">
+            <div class="section-overlay"></div>
+            <div class="first-page-info">
+                <div class="first-page-label">
+                    <div class="big-label">
+                        We are
+                    </div>
+                    <div class="small-label">
+                        Integrated Property Developers
+                    </div>
+                </div>
+                <div id="first-page-logo" class="osi-logo">
+                    <div class="click-me">Click me &#8594;</div>
+                    <div class="osi-logo-bg"></div>
+                    <div class="osi-logo-icon"></div>
+                </div>
+            </div>
 
-        <div class="osi-text-label collaboration" onclick="scrollifyTo('collaboration')">
-            Collaboration
-        </div>
+            <div class="osi-text-label collaboration" onclick="scrollifyTo('collaboration')">
+                Collaboration
+                <div class="key-visual left"></div>
+            </div>
 
-        <div class="osi-text-label innovation">
-            Innovation
-            <div class="key-visual left"></div>
-        </div>
+            <div class="osi-text-label innovation" onclick="scrollifyTo('innovation')">
+                Innovation
+                <div class="key-visual left"></div>
+            </div>
 
-        <div class="osi-text-label excellency">
-            Excellency
+            <div class="osi-text-label excellency" onclick="scrollifyTo('excellency')">
+                Excellency
+                <div class="key-visual left"></div>
+            </div>
+
+            <div id="scroll-down-container" onclick="scrollifyTo('collaboration')">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <span class="text">Scroll Down</span>
+            </div>
+        </div>
+        <div class="section feature-collaboration" data-section-name="collaboration"
+             style="background-image: url('<?= $featureBg ?>')">
+            <div class="section-overlay"></div>
+            <div class="f-main f-collaboration-main">
+                <div class="osi-text-label f-title no-border f-collaboration">
+                    Harmonize Collaboration
+                    <div class="key-visual right"></div>
+                </div>
+                <div class="clear-both"></div>
+                <div class="osi-desc f-collaboration-desc">
+                    Harmonize Collaboration among employees, clients and partners. <br>
+                    Respect all the relevant parties involved including your peers and <br>
+                    balance your your work and your life and care for our communities we work with
+                </div>
+            </div>
+            <div class="cta-btn">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+                Who we are
+            </div>
+        </div>
+        <div class="section feature-excellency" data-section-name="excellency"
+             style="background-image: url('<?= $featureExcellency ?>')">
+            <div class="section-overlay"></div>
+            <div class="f-main f-excellency-main">
+                <div class="osi-text-label f-title no-border f-excellency">
+                    Excellency
+                    <div class="key-visual right"></div>
+                </div>
+                <div class="clear-both"></div>
+                <div class="osi-desc f-excellency-desc">
+                    Provide high quality real estate products & first class service to Partners and Clients <br>
+                    Quality control at every stage of development with professional excellency
+                </div>
+            </div>
+            <div class="cta-btn">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+                Who we are
+            </div>
+        </div>
+        <div class="section feature-innovation" data-section-name="innovation"
+             style="background-image: url('<?= $featureInnovation ?>')">
+            <div class="section-overlay"></div>
+            <div class="f-main f-innovation-main">
+                <div class="osi-text-label f-title no-border f-innovation">
+                    Innovation
+                    <div class="key-visual right"></div>
+                </div>
+                <div class="clear-both"></div>
+                <div class="osi-desc f-innovation-desc">
+                    Provide high quality real estate products & first class service to Partners and Clients <br>
+                    Quality control at every stage of development with professional excellency
+                </div>
+            </div>
+            <div class="cta-btn">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+                Who we are
+            </div>
         </div>
     </div>
-    <div class="section feature-collaboration" data-section-name="collaboration" style="background-image: url('<?= $featureBg ?>')">
-        <div class="section-overlay"></div>
-        <div class="f-collaboration-main">
-            <div class="osi-text-label no-border f-collaboration">
-                Harmonize Collaboration
-                <div class="key-visual right"></div>
-            </div>
-            <div class="osi-desc f-collaboration-desc">
-                Harmonize Collaboration among employees, clients and partners. <br>
-                Respect all the relevant parties involved including your peers and <br>
-                Balance your your work and your life and care for our communities we work with
-            </div>
-        </div>
-    </div>
-    <div class="section" data-section-name="about">Some section</div>
-    <div class="section" data-section-name="test">Some section</div>
-</div>
 
-<script>
-    function scrollifyTo(section) {
-        $.scrollify.move("#"+section);
-    }
-    function toggleHome(on) {
-        if (on) {
-            $("#first-page-logo").addClass("active");
-            $(".osi-text-label.collaboration").fadeIn(1900);
-            setTimeout(function () {
-                $(".osi-text-label.innovation").fadeIn(1900);
-                $(".osi-text-label.innovation .key-visual").addClass("active");
-            }, 500);
-            setTimeout(function () {
-                $(".osi-text-label.excellency").fadeIn(1900);
-            }, 1000);
-        } else {
-            $("#first-page-logo").removeClass("active");
-            $(".osi-text-label.collaboration").fadeOut(900);
-            setTimeout(function () {
-                $(".osi-text-label.innovation").fadeOut(900);
-            }, 500);
-            setTimeout(function () {
-                $(".osi-text-label.excellency").fadeOut(900);
-            }, 1000);
+    <script>
+        function scrollifyTo(section) {
+            $.scrollify.move("#" + section);
         }
-    }
-    function toggleFeatureCollaboration(on) {
-        if (on) {
-            $(".osi-text-label.f-collaboration .key-visual").addClass("active");
-            $(".osi-desc.f-collaboration-desc").fadeIn(900);
-        } else {
 
-        }
-    }
+        function toggleHome(on) {
+            if (on) {
+                // $(".first-page-label").fadeOut(400);
+                $(".first-page-label").addClass("active");
+                $("#first-page-logo").addClass("active");
 
-    $(document).ready(function() {
-        $("#first-page-logo").click(function () {
-            if ($(this).hasClass("active")) {
-                toggleHome(false);
+                $(".osi-text-label.collaboration").fadeIn(900);
+                setTimeout(function () {
+                    $(".osi-text-label.innovation").fadeIn(900);
+                }, 500);
+                setTimeout(function () {
+                    $(".osi-text-label.excellency").fadeIn(900);
+                    $("#scroll-down-container").fadeIn(900);
+                }, 1000);
             } else {
-                toggleHome(true);
+                // $(".first-page-label").fadeIn(400);
+                $(".first-page-label").removeClass("active");
+                $("#first-page-logo").removeClass("active");
+                $(".osi-text-label.collaboration").fadeOut(300);
+                setTimeout(function () {
+                    $(".osi-text-label.innovation").fadeOut(300);
+                }, 500);
+                setTimeout(function () {
+                    $(".osi-text-label.excellency").fadeOut(300);
+                    $("#scroll-down-container").fadeOut(300);
+                }, 1000);
             }
-        });
-        toggleHome(true);
-    });
+        }
 
-    $(function() {
-        $.scrollify({
-            easing: "swing",
-            section : ".section",
-            after: function (index, section) {
-                const nextSection = $($(section).get(index));
-                console.log(nextSection.data('section-name'))
-                if (nextSection.data('section-name') === "home") {
+        function toggleFeatureCollaboration(on) {
+            if (on) {
+                $(".f-collaboration-main").addClass("active");
+                $(".osi-text-label.f-collaboration .key-visual").addClass("active");
+                $(".osi-desc.f-collaboration-desc").fadeIn(900);
+            } else {
+
+            }
+        }
+
+        function toggleFeatureExcellency(on) {
+            if (on) {
+                $(".f-excellency-main").addClass("active");
+                $(".osi-text-label.f-excellency .key-visual").addClass("active");
+                $(".osi-desc.f-excellency-desc").fadeIn(900);
+            } else {
+
+            }
+        }
+
+        function toggleFeatureInnovation(on) {
+            if (on) {
+                $(".f-innovation-main").addClass("active");
+                $(".osi-text-label.f-innovation .key-visual").addClass("active");
+                $(".osi-desc.f-innovation-desc").fadeIn(900);
+            } else {
+
+            }
+        }
+
+        $(document).ready(function () {
+            $("#first-page-logo").click(function () {
+                if ($(this).hasClass("active")) {
+                    toggleHome(false);
+                } else {
                     toggleHome(true);
                 }
-                if (nextSection.data('section-name') === "collaboration") {
-                    toggleFeatureCollaboration(true);
-                }
-            }
+            });
         });
-    });
-</script>
+
+        $(function () {
+            $.scrollify({
+                section: ".section",
+                scrollSpeed: 1500,
+                easing: "swing",
+                scrollbars: false,
+                after: function (index, section) {
+                    const nextSection = $($(section).get(index));
+                    console.log(nextSection.data('section-name'))
+                    if (nextSection.data('section-name') === "home") {
+                        toggleHome(true);
+                    }
+                    if (nextSection.data('section-name') === "collaboration") {
+                        toggleFeatureCollaboration(true);
+                    }
+                    if (nextSection.data('section-name') === "excellency") {
+                        toggleFeatureExcellency(true);
+                    }
+                    if (nextSection.data('section-name') === "innovation") {
+                        toggleFeatureInnovation(true);
+                    }
+                },
+                before:function(i,panels) {
+
+                    var ref = panels[i].attr("data-section-name");
+
+                    $(".pagination .active").removeClass("active");
+
+                    $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
+                },
+                afterRender:function() {
+                    var pagination = "<ul class=\"pagination\">";
+                    var activeClass = "";
+                    $(".panel").each(function(i) {
+                        activeClass = "";
+                        if(i===$.scrollify.currentIndex()) {
+                            activeClass = "active";
+                        }
+                        pagination += "<li><a class=\"" + activeClass + "\" href=\"#" + $(this).attr("data-section-name") + "\"><span class=\"hover-text\">" + $(this).attr("data-section-name").charAt(0).toUpperCase() + $(this).attr("data-section-name").slice(1) + "</span></a></li>";
+                    });
+
+                    pagination += "</ul>";
+
+                    $(".home").append(pagination);
+                    /*
+
+                    Tip: The two click events below are the same:
+
+                    $(".pagination a").on("click",function() {
+                      $.scrollify.move($(this).attr("href"));
+                    });
+
+                    */
+                    $(".pagination a").on("click",$.scrollify.move);
+                }
+            });
+        });
+    </script>
 
 <?php
 get_footer();

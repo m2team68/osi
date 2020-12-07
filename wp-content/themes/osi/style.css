@@ -15,11 +15,13 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned
 with others.
 */
+@import "assets/css/homepage.css";
+
 :root {
     --osi-orange: #bd6126;
-    --osi-green: #18bd6b;
+    --osi-green: #006f3c;
+    --cta-border-color: #E94E3D;
 }
-
 
 body {
     background-color: #333 !important;
@@ -52,6 +54,17 @@ body {
         opacity: 0;
     }
 }
+@keyframes osi-logo {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.96);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .osi-logo-bg {
     content: "";
     position: absolute;
@@ -81,10 +94,15 @@ body {
 }
 .osi-logo {
     display: inline-block;
-    width: 162px;
-    height: 162px;
+    width: 142px;
+    height: 142px;
     cursor: pointer;
     position: relative;
+    animation-name: osi-logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
 }
 .osi-logo:hover .osi-logo-bg{
     opacity: 0.6;
@@ -113,6 +131,9 @@ body {
     opacity: 0.6;
     background-color: var(--osi-green);
 }
+.osi-logo.active {
+    animation: unset;
+}
 .osi-logo.active .osi-logo-bg::after {
     height: 100%;
     width: 100%;
@@ -131,12 +152,51 @@ body {
     justify-content: center;
     align-items: center;
 }
+.first-page-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.first-page-label {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    max-height: 191px;
+    transition: all 1s ease-out, opacity 0.6s;
+    opacity: 1;
+}
+.first-page-label.active {
+    max-height: 0;
+    margin-bottom: 0;
+    opacity: 0;
+}
+.first-page-label .big-label {
+    font-size: 147px;
+    line-height: 100%;
+}
+.first-page-label .small-label {
+    font-size: 30px;
+}
+#first-page-logo .click-me {
+    position: absolute;
+    right: 115%;
+    top: 42%;
+    display: block;
+    width: fit-content !important;
+    font-size: 18px;
+}
+#first-page-logo.active .click-me {
+    display: none;
+}
 .section {
     height: 100vh;
     width: 100%;
     z-index: 1;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 }
 .section * {
     z-index: 2;
@@ -157,7 +217,7 @@ body {
 }
 .first-page .osi-text-label:hover {
     opacity: 1;
-    transition: opacity 0.37s ease-in;
+    transition: opacity 0.1s ease-in;
 }
 .osi-text-label {
     font-size: 3.4em;
@@ -191,7 +251,11 @@ body {
     z-index: -1;
     opacity: 0.8;
 }
-.key-visual.active::after {
+.first-page .osi-text-label:hover .key-visual::after {
+    animation-delay: unset !important;
+    animation-duration: 0.3s !important;
+}
+.first-page .osi-text-label:hover .key-visual::after, .key-visual.active::after {
     animation-delay: 0.7s;
     animation-name: key-visual;
     animation-duration: 0.7s;
@@ -214,6 +278,11 @@ body {
     top: 55%;
     font-size: 3em;
 }
+.f-title {
+    width: fit-content;
+    display: inline-block;
+    font-size: 4em;
+}
 .osi-text-label.collaboration {
     right: 7%;
     top: 25%;
@@ -232,13 +301,48 @@ body {
     position: absolute;
     top: 30%;
     right: 76px;
-    width: 1000px;
+    /*width: 1000px;*/
+}
+.f-excellency-main {
+    position: absolute;
+    top: 30%;
+    right: 76px;
+    /*width: 1000px;*/
+}
+.f-innovation-main {
+    position: absolute;
+    top: 30%;
+    right: 76px;
+    /*width: 1000px;*/
+}
+.f-main .osi-desc {
+    transition: all 0.8s ease-out;
+    opacity: 0;
+}
+.f-main.active .osi-desc {
+    opacity: 1;
+}
+.f-main .osi-desc::before, .f-main .osi-desc::after {
+    width: 0;
+    transition: all 0.3s ease-out;
+}
+.f-main.active .osi-desc::before {
+    width: 40%;
+}
+.f-main.active .osi-desc::after {
+    width: 60%;
+}
+.f-main {
+    text-align: right;
 }
 .osi-desc {
     padding-top: 20px;
     padding-bottom: 30px;
     position: relative;
     font-size: 20px;
+    width: fit-content;
+    display: inline-block;
+    text-align: left;
 }
 .osi-desc::before {
     content: "";
@@ -256,9 +360,85 @@ body {
     bottom: 0;
     right: 20px;
 }
-.osi-desc.f-collaboration-desc {
-    text-align: left;
-    display: none;
+/*.osi-desc.f-collaboration-desc {*/
+/*    text-align: left;*/
+/*    display: none;*/
+/*}*/
+
+.cta-btn {
+    position: absolute;
+    bottom: 10px;
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.cta-btn .circle {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: -125;
+    transition: all 0.4s linear;
+    stroke: #fff;
+    stroke-width: 3;
+}
+.cta-btn:hover .circle {
+    stroke-dashoffset: 0;
+}
+.cta-btn:hover .cta-icon:after {
+    transition: all 0.3s ease-out;
+    transition-delay: 0.4s;
+    background: var(--osi-orange);
+}
+.cta-btn:hover .cta-icon:before {
+    opacity: 0;
+    transition-delay: 0.3s;
+}
+.cta-btn:hover .cta-icon {
+    transition-delay: 0.3s;
+    background: var(--osi-green);
+}
+.cta-icon {
+    overflow: hidden;
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: relative;
+    border: #fff thin solid;
+    display: block;
+}
+.cta-icon:after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    border: #fff thin solid;
+    position: absolute;
+    border-radius: 1px;
+    top: 13px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-out;
+}
+.cta-icon:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: #fff thin solid;
+    position: absolute;
+    border-radius: 1px;
+    top: 9.5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-out;
 }
 /**
 Header
