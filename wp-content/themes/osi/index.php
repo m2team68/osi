@@ -293,6 +293,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     $(".pagination a").on("click",$.scrollify.move);
                 }
             });
+            $.scrollify.disable();
         });
         $(window).on('load', function() {
             setTimeout(function() {
