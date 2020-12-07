@@ -240,11 +240,12 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             $.scrollify({
                 section: ".section",
                 scrollSpeed: 1500,
+                offset : 0,
+                sectionName: false,
                 easing: "swing",
                 scrollbars: false,
                 after: function (index, section) {
                     const nextSection = $($(section).get(index));
-                    console.log(nextSection.data('section-name'))
                     if (nextSection.data('section-name') === "home") {
                         toggleHome(true);
                     }
