@@ -32,19 +32,25 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             <li>
                 <a class="" data-href="#collaboration" onclick="scrollifyTo('collaboration')">
                     <span class="page-index">02</span>
-                    <div class="hover-text">Collaboration</div>
+                    <div class="hover-text">
+                        <?php do_action('homepage-get_text', 'second_page_title'); ?>
+                    </div>
                 </a>
             </li>
             <li>
                 <a class="" data-href="#excellency" onclick="scrollifyTo('excellency')">
                     <span class="page-index">03</span>
-                    <div class="hover-text">Excellency</div>
+                    <div class="hover-text">
+                        <?php do_action('homepage-get_text', 'third_page_title'); ?>
+                    </div>
                 </a>
             </li>
             <li>
                 <a class="" data-href="#innovation" onclick="scrollifyTo('innovation')">
                     <span class="page-index">04</span>
-                    <div class="hover-text">Innovation</div>
+                    <div class="hover-text">
+                        <?php do_action('homepage-get_text', 'fourth_page_title'); ?>
+                    </div>
                 </a>
             </li>
         </ul>
@@ -53,31 +59,33 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             <div class="first-page-info">
                 <div class="first-page-label">
                     <div class="big-label">
-                        We are
+                        <?php do_action('homepage-get_text', 'homepage-big_label'); ?>
                     </div>
                     <div class="small-label">
-                        Integrated Property Developers
+                        <?php do_action('homepage-get_text', 'homepage-small_label'); ?>
                     </div>
                 </div>
                 <div id="first-page-logo" class="osi-logo">
-                    <div class="click-me">Click me &#8594;</div>
+                    <div class="click-me">
+                        <?php do_action('homepage-get_text', 'homepage-click_me'); ?>
+                    </div>
                     <div class="osi-logo-bg"></div>
                     <div class="osi-logo-icon"></div>
                 </div>
             </div>
 
             <div class="osi-text-label collaboration" onclick="scrollifyTo('collaboration')">
-                Collaboration
+                <?php do_action('homepage-get_text', 'second_page_title'); ?>
                 <div class="key-visual left"></div>
             </div>
 
             <div class="osi-text-label innovation" onclick="scrollifyTo('innovation')">
-                Innovation
+                <?php do_action('homepage-get_text', 'third_page_title'); ?>
                 <div class="key-visual left"></div>
             </div>
 
             <div class="osi-text-label excellency" onclick="scrollifyTo('excellency')">
-                Excellency
+                <?php do_action('homepage-get_text', 'fourth_page_title'); ?>
                 <div class="key-visual left"></div>
             </div>
 
@@ -93,14 +101,12 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             <div class="section-overlay"></div>
             <div class="f-main f-collaboration-main">
                 <div class="osi-text-label f-title no-border f-collaboration">
-                    Collaboration
+                    <?php do_action('homepage-get_text', 'second_page_label'); ?>
                     <div class="key-visual right"></div>
                 </div>
                 <div class="clear-both"></div>
                 <div class="osi-desc f-collaboration-desc">
-                    Harmonize Collaboration among employees, clients and partners. <br>
-                    Respect all the relevant parties involved including your peers and <br>
-                    balance your your work and your life and care for our communities we work with
+                    <?php do_action('homepage-get_text', 'second_page_desc'); ?>
                 </div>
             </div>
             <div class="cta-btn">
@@ -109,7 +115,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
-                Who we are
+                <?php do_action('homepage-get_text', 'second_page_cta'); ?>
             </div>
         </div>
         <div class="section feature-excellency" data-section-name="excellency"
@@ -117,13 +123,12 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             <div class="section-overlay"></div>
             <div class="f-main f-excellency-main">
                 <div class="osi-text-label f-title no-border f-excellency">
-                    Excellency
+                    <?php do_action('homepage-get_text', 'third_page_label'); ?>
                     <div class="key-visual right"></div>
                 </div>
                 <div class="clear-both"></div>
                 <div class="osi-desc f-excellency-desc">
-                    Provide high quality real estate products & first class service to Partners and Clients <br>
-                    Quality control at every stage of development with professional excellency
+                    <?php do_action('homepage-get_text', 'third_page_desc'); ?>
                 </div>
             </div>
             <div class="cta-btn">
@@ -132,7 +137,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
-                Our Products & Services
+                <?php do_action('homepage-get_text', 'third_page_cta'); ?>
             </div>
         </div>
         <div class="section feature-innovation" data-section-name="innovation"
@@ -140,13 +145,12 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             <div class="section-overlay"></div>
             <div class="f-main f-innovation-main">
                 <div class="osi-text-label f-title no-border f-innovation">
-                    Innovation
+                    <?php do_action('homepage-get_text', 'fourth_page_label'); ?>
                     <div class="key-visual right"></div>
                 </div>
                 <div class="clear-both"></div>
                 <div class="osi-desc f-innovation-desc">
-                    Provide high quality real estate products & first class service to Partners and Clients <br>
-                    Quality control at every stage of development with professional excellency
+                    <?php do_action('homepage-get_text', 'fourth_page_desc'); ?>
                 </div>
             </div>
             <div class="cta-btn">
@@ -155,7 +159,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
-                Our Creators
+                <?php do_action('homepage-get_text', 'fourth_page_cta'); ?>
             </div>
         </div>
     </div>
