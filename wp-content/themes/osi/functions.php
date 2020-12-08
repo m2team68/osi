@@ -131,9 +131,6 @@ function theme_name_register_theme_customizer($wp_customize)
         );
     }
     $homeBg = get_theme_file_uri('assets/images/home_bg.jpg');
-    $featureBg = get_theme_file_uri('assets/images/feature_bg.jpg');
-    $featureInnovation = get_theme_file_uri('assets/images/feature_innovation.jpg');
-    $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 
     $wp_customize->add_setting('first_page_background', [
         'default' => $homeBg
@@ -150,27 +147,33 @@ function theme_name_register_theme_customizer($wp_customize)
         )
     );
 
+    $featureBg = get_theme_file_uri('assets/images/feature_bg.jpg');
+    $featureInnovation = get_theme_file_uri('assets/images/feature_innovation.jpg');
+    $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
     $pages = [
         'second_page' => [
             'page_name' => '#2 Page',
             'title' => 'Collaboration',
             'label' => 'Collaboration',
             'desc' => 'Harmonize Collaboration among employees, clients and partners. <br> Respect all the relevant parties involved including your peers and <br> balance your your work and your life and care for our communities we work with',
-            'cta' => 'Who we are'
+            'cta' => 'Who we are',
+            'background' => $featureBg
         ],
         'third_page' => [
             'page_name' => '#3 Page',
             'title' => 'Excellency',
             'label' => 'Excellency',
             'desc' => 'Provide high quality real estate products & first class service to Partners and Clients <br> Quality control at every stage of development with professional excellency',
-            'cta' => 'OUR PRODUCTS & SERVICES'
+            'cta' => 'OUR PRODUCTS & SERVICES',
+            'background' => $featureExcellency
         ],
         'fourth_page' => [
             'page_name' => '#4 Page',
             'title' => 'Innovation',
             'label' => 'Innovation',
             'desc' => 'Provide high quality real estate products & first class service to Partners and Clients <br> Quality control at every stage of development with professional excellency',
-            'cta' => 'OUR CREATORS'
+            'cta' => 'OUR CREATORS',
+            'background' => $featureInnovation
         ],
     ];
 
@@ -240,6 +243,21 @@ function theme_name_register_theme_customizer($wp_customize)
                 )
             )
         );
+
+        $wp_customize->add_setting($pageKey.'_background', [
+            'default' => $page['background']
+        ]);
+        $wp_customize->add_control(new WP_Customize_Image_Control(
+                $wp_customize,
+                $pageKey.'_background',
+                array(
+                    'label' => __('Background', 'osi'),
+                    'section' => $pageKey,
+                    'settings' => $pageKey.'_background',
+                    'type' => 'image'
+                )
+            )
+        );
     }
 
     // Sanitize text
@@ -252,9 +270,9 @@ function theme_name_register_theme_customizer($wp_customize)
 add_action('customize_register', 'theme_name_register_theme_customizer');
 
 
-function getHomepageText($mod)
+function getHomepageText($mod, $default = null)
 {
-    echo get_theme_mod($mod);
+    echo get_theme_mod($mod) ? get_theme_mod($mod) : $default;
 }
 
-add_action('homepage-get_text', 'getHomepageText', 10, 1);
+add_action('homepage-get_text', 'getHomepageText', 10, 2);

@@ -344,6 +344,7 @@ body {
 }
 .f-main {
     text-align: right;
+    max-width: 50%;
 }
 .osi-desc {
     padding-top: 20px;

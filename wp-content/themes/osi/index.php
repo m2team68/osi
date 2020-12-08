@@ -54,7 +54,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                 </a>
             </li>
         </ul>
-        <div class="section first-page active" data-section-name="home" style="background-image: url('<?= $homeBg ?>')">
+        <div class="section first-page active" data-section-name="home" style="background-image: url('<?php do_action('homepage-get_text', 'first_page_background', $homeBg) ?>')">
             <div class="section-overlay"></div>
             <div class="first-page-info">
                 <div class="first-page-label">
@@ -97,7 +97,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             </div>
         </div>
         <div class="section feature-collaboration" data-section-name="collaboration"
-             style="background-image: url('<?= $featureBg ?>')">
+             style="background-image: url('<?php do_action('homepage-get_text', 'second_page_background', $featureBg) ?>')">
             <div class="section-overlay"></div>
             <div class="f-main f-collaboration-main">
                 <div class="osi-text-label f-title no-border f-collaboration">
@@ -119,7 +119,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             </div>
         </div>
         <div class="section feature-excellency" data-section-name="excellency"
-             style="background-image: url('<?= $featureExcellency ?>')">
+             style="background-image: url('<?php do_action('homepage-get_text', 'third_page_background', $featureExcellency) ?>')">
             <div class="section-overlay"></div>
             <div class="f-main f-excellency-main">
                 <div class="osi-text-label f-title no-border f-excellency">
@@ -141,7 +141,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             </div>
         </div>
         <div class="section feature-innovation" data-section-name="innovation"
-             style="background-image: url('<?= $featureInnovation ?>')">
+             style="background-image: url('<?php do_action('homepage-get_text', 'fourth_page_background', $featureInnovation) ?>')">
             <div class="section-overlay"></div>
             <div class="f-main f-innovation-main">
                 <div class="osi-text-label f-title no-border f-innovation">
