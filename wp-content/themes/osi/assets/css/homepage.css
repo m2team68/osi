@@ -7,12 +7,15 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    display: none;
     cursor: pointer;
 }
 
 #scroll-down-container * {
     cursor: pointer;
+}
+
+.hide {
+    display: none;
 }
 
 .chevron {

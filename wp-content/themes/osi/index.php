@@ -89,7 +89,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                 <div class="key-visual left"></div>
             </div>
 
-            <div id="scroll-down-container" onclick="scrollifyTo('collaboration')">
+            <div id="scroll-down-container" class="hide" onclick="scrollifyTo('collaboration')">
                 <div class="chevron"></div>
                 <div class="chevron"></div>
                 <div class="chevron"></div>

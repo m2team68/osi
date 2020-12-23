@@ -15,7 +15,12 @@ function custom_theme_assets()
     wp_enqueue_style('font-modeco', get_theme_file_uri('assets/fonts/modeco/ModecoTrial-Regular.otf'), array(), null);
 }
 
-add_action('wp_enqueue_scripts', 'custom_theme_assets');
+add_action('wp_enqueue_scripts', 'custom_theme_assets', 20, 1);
+
+function custom_customize_enqueue() {
+    wp_enqueue_script( 'custom-customize', get_theme_file_uri('assets/js/customization.js'), array( 'jquery', 'customize-controls' ), false, true );
+}
+add_action( 'customize_controls_enqueue_scripts', 'custom_customize_enqueue' );
 
 function my_style_loader_tag_filter($html, $handle)
 {
@@ -259,12 +264,12 @@ function theme_name_register_theme_customizer($wp_customize)
             )
         );
     }
+}
 
-    // Sanitize text
-    function sanitize_text($text)
-    {
-        return sanitize_text_field($text);
-    }
+// Sanitize text
+function sanitize_text($text)
+{
+    return sanitize_text_field($text);
 }
 
 add_action('customize_register', 'theme_name_register_theme_customizer');
@@ -276,3 +281,146 @@ function getHomepageText($mod, $default = null)
 }
 
 add_action('homepage-get_text', 'getHomepageText', 10, 2);
+
+
+/**
+ * Register Homepage widget
+ */
+
+function register_about_us_customizer($wp_customize)
+{
+    // Create custom panel.
+    $wp_customize->add_panel('about_us_block', array(
+        'priority' => 10,
+        'theme_supports' => '',
+        'title' => __('About Us Customize', 'osi'),
+        'description' => __('Set editable text for certain content.', 'osi'),
+    ));
+    $sections = [
+        'first' => [
+            'key' => 'au_first_page',
+            'label' => "First Page",
+            'configs' => [
+                'au-upper' => [
+                    'default' => 'ABOUT',
+                    'label' => 'Upper Text',
+                    'type' => 'text'
+                ],
+                'au-lower' => [
+                    'default' => 'US',
+                    'label' => 'Lower Text',
+                    'type' => 'text'
+                ],
+                'au-desc' => [
+                    'default' => '“OSI is integrated property developer who creates the highest value to stakeholders by providing outstanding products and services with infinite resources”',
+                    'label' => 'Description',
+                    'type' => 'textarea'
+                ],
+            ]
+        ],
+        'second' => [
+            'key' => 'au_second_page',
+            'label' => "Second Page",
+            'configs' => [
+                'au-upper' => [
+                    'default' => 'PROVIDE TOP-QUALITY',
+                    'label' => 'Upper Text',
+                    'type' => 'text'
+                ],
+                'au-lower' => [
+                    'default' => 'PRODUCTS & SERVICES',
+                    'label' => 'Lower Text',
+                    'type' => 'text'
+                ],
+                'au-desc' => [
+                    'default' => 'Provide not only top-quality products and services to the stakeholders, but also deliver premium value to them.|Maintain excellency at every stage from beginning till end.',
+                    'label' => 'Description',
+                    'type' => 'textarea'
+                ],
+            ]
+        ],
+        'third' => [
+            'key' => 'au_third_page',
+            'label' => "Third Page",
+            'configs' => [
+                'au-upper' => [
+                    'default' => 'EFFICIENT USE OF TIME',
+                    'label' => 'Upper Text',
+                    'type' => 'text'
+                ],
+                'au-lower' => [
+                    'default' => '& RESOURCES',
+                    'label' => 'Lower Text',
+                    'type' => 'text'
+                ],
+                'au-desc' => [
+                    'default' => 'Speed and efficiency is the core concept.|Focus continuos innovation to keep speed and efficiency within the pursuit of excellency.',
+                    'label' => 'Description',
+                    'type' => 'textarea'
+                ],
+            ]
+        ],
+        'fourth' => [
+            'key' => 'au_fourth_page',
+            'label' => "Fourth Page",
+            'configs' => [
+                'au-upper' => [
+                    'default' => 'CREATE HIGHTEST VALUE',
+                    'label' => 'Upper Text',
+                    'type' => 'text'
+                ],
+                'au-lower' => [
+                    'default' => 'TO ALL STAKEHOLDERS',
+                    'label' => 'Lower Text',
+                    'type' => 'text'
+                ],
+                'au-desc' => [
+                    'default' => 'Optimize partners value through successful completion of projects.|Deliver value added products and services to the clients and customers.|Pursue customer satisfaction and employee happiness.',
+                    'label' => 'Description',
+                    'type' => 'textarea'
+                ],
+            ]
+        ],
+    ];
+    foreach ($sections as $sectionKey => $sectionConfigs) {
+        $wp_customize->add_section($sectionConfigs['key'], array(
+            'title' => __($sectionConfigs['label'], 'osi'),
+            'panel' => 'about_us_block',
+            'priority' => 10
+        ));
+        foreach ($sectionConfigs['configs'] as $key => $config) {
+            // Add setting
+            $wp_customize->add_setting($sectionKey."-".$key, array(
+                'default' => __($config['default'], 'osi'),
+                'sanitize_callback' => 'sanitize_text'
+            ));
+            // Add control
+            $wp_customize->add_control(new WP_Customize_Control(
+                    $wp_customize,
+                    $sectionKey."-".$key,
+                    array(
+                        'label' => __($config['label'], 'osi'),
+                        'section' => $sectionConfigs['key'],
+                        'settings' => $sectionKey."-".$key,
+                        'type' => $config['type']
+                    )
+                )
+            );
+        }
+    }
+}
+
+add_action('customize_register', 'register_about_us_customizer');
+
+
+function getAboutUsText($mod, $default = null)
+{
+    echo get_theme_mod($mod) ? get_theme_mod($mod) : $default;
+}
+
+function getAboutUsTextInline($mod, $default = null)
+{
+    return get_theme_mod($mod) ? get_theme_mod($mod) : $default;
+}
+
+add_action('about_us-get_text', 'getAboutUsText', 10, 2);
