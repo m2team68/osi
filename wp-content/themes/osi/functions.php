@@ -90,7 +90,7 @@ add_action('after_setup_theme', 'nd_dosth_theme_setup');
 function theme_name_register_theme_customizer($wp_customize)
 {
     // Create custom panel.
-    $wp_customize->add_panel('text_blocks', array(
+    $wp_customize->add_panel('homepage_block', array(
         'priority' => 10,
         'theme_supports' => '',
         'title' => __('Homepage Customize', 'osi'),
@@ -99,7 +99,7 @@ function theme_name_register_theme_customizer($wp_customize)
     // Add section.
     $wp_customize->add_section('first_page', array(
         'title' => __('#1 Home', 'osi'),
-        'panel' => 'text_blocks',
+        'panel' => 'homepage_block',
         'priority' => 10
     ));
     $customTextArr = [
@@ -185,7 +185,7 @@ function theme_name_register_theme_customizer($wp_customize)
     foreach ($pages as $pageKey => $page) {
         $wp_customize->add_section($pageKey, array(
             'title' => __($page['page_name'], 'osi'),
-            'panel' => 'text_blocks',
+            'panel' => 'homepage_block',
             'priority' => 10
         ));
         $wp_customize->add_setting($pageKey.'_title', array(
