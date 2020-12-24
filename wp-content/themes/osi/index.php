@@ -79,12 +79,12 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                 <div class="key-visual left"></div>
             </div>
 
-            <div class="osi-text-label innovation" onclick="scrollifyTo('innovation')">
+            <div class="osi-text-label excellency" onclick="scrollifyTo('excellency')">
                 <?php do_action('homepage-get_text', 'third_page_title'); ?>
                 <div class="key-visual left"></div>
             </div>
 
-            <div class="osi-text-label excellency" onclick="scrollifyTo('excellency')">
+            <div class="osi-text-label innovation" onclick="scrollifyTo('innovation')">
                 <?php do_action('homepage-get_text', 'fourth_page_title'); ?>
                 <div class="key-visual left"></div>
             </div>
@@ -109,14 +109,14 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     <?php do_action('homepage-get_text', 'second_page_desc'); ?>
                 </div>
             </div>
-            <div class="cta-btn">
+            <a class="cta-btn" href="<?php do_action('homepage-get_text', 'second_page_cta_url'); ?>">
                 <div class="cta-icon">
                     <svg height="46" width="45" style="position: absolute; z-index: 5;">
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
                 <?php do_action('homepage-get_text', 'second_page_cta'); ?>
-            </div>
+            </a>
         </div>
         <div class="section feature-excellency" data-section-name="excellency"
              style="background-image: url('<?php do_action('homepage-get_text', 'third_page_background', $featureExcellency) ?>')">
@@ -131,14 +131,14 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                     <?php do_action('homepage-get_text', 'third_page_desc'); ?>
                 </div>
             </div>
-            <div class="cta-btn">
+            <a class="cta-btn" href="<?php do_action('homepage-get_text', 'third_page_cta_url'); ?>">
                 <div class="cta-icon">
                     <svg height="46" width="45" style="position: absolute; z-index: 5;">
                         <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
                     </svg>
                 </div>
                 <?php do_action('homepage-get_text', 'third_page_cta'); ?>
-            </div>
+            </a>
         </div>
         <div class="section feature-innovation" data-section-name="innovation"
              style="background-image: url('<?php do_action('homepage-get_text', 'fourth_page_background', $featureInnovation) ?>')">

@@ -157,28 +157,31 @@ function theme_name_register_theme_customizer($wp_customize)
     $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
     $pages = [
         'second_page' => [
-            'page_name' => '#2 Page',
+            'page_name' => '#2 Collaboration',
             'title' => 'Collaboration',
             'label' => 'Collaboration',
             'desc' => 'Harmonize Collaboration among employees, clients and partners. <br> Respect all the relevant parties involved including your peers and <br> balance your your work and your life and care for our communities we work with',
             'cta' => 'Who we are',
-            'background' => $featureBg
+            'background' => $featureBg,
+            'cta_url' => '/about-us'
         ],
         'third_page' => [
-            'page_name' => '#3 Page',
+            'page_name' => '#3 Excellency',
             'title' => 'Excellency',
             'label' => 'Excellency',
             'desc' => 'Provide high quality real estate products & first class service to Partners and Clients <br> Quality control at every stage of development with professional excellency',
             'cta' => 'OUR PRODUCTS & SERVICES',
-            'background' => $featureExcellency
+            'background' => $featureExcellency,
+            'cta_url' => '/products-services'
         ],
         'fourth_page' => [
-            'page_name' => '#4 Page',
+            'page_name' => '#4 Innovation',
             'title' => 'Innovation',
             'label' => 'Innovation',
             'desc' => 'Provide high quality real estate products & first class service to Partners and Clients <br> Quality control at every stage of development with professional excellency',
             'cta' => 'OUR CREATORS',
-            'background' => $featureInnovation
+            'background' => $featureInnovation,
+            'cta_url' => '/about-us'
         ],
     ];
 
@@ -245,6 +248,21 @@ function theme_name_register_theme_customizer($wp_customize)
                     'section' => $pageKey,
                     'settings' => $pageKey.'_cta',
                     'type' => 'textarea'
+                )
+            )
+        );
+        $wp_customize->add_setting($pageKey.'_cta_url', array(
+            'default' => __($page['cta_url'], 'osi'),
+            'sanitize_callback' => 'sanitize_text'
+        ));
+        $wp_customize->add_control(new WP_Customize_Control(
+                $wp_customize,
+                $pageKey.'_cta_url',
+                array(
+                    'label' => __('Call to action URL', 'osi'),
+                    'section' => $pageKey,
+                    'settings' => $pageKey.'_cta_url',
+                    'type' => 'text'
                 )
             )
         );

@@ -393,6 +393,8 @@ body {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    text-decoration: none !important;
+    color: white !important;
 }
 .cta-btn .circle {
     stroke-dasharray: 1000;
@@ -504,4 +506,50 @@ header.osi-header .logo img {
     text-transform: uppercase;
     font-size: 20px;
     padding: 0 20px;
+}
+
+.osi-label-gray {
+    font-size: 80px;
+    line-height: 80px;
+    color: var(--osi-gray);
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px;
+}
+
+.osi-label-darkgray {
+    font-size: 220px;
+    color: var(--osi-darkgray);
+    line-height: 220px;
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) 9px 0px 0px, rgb(255, 255, 255) 8.9445px 0.997944px 0px, rgb(255, 255, 255) 8.77869px 1.98358px 0px, rgb(255, 255, 255) 8.50461px 2.94475px 0px, rgb(255, 255, 255) 8.12565px 3.86961px 0px, rgb(255, 255, 255) 7.64647px 4.74674px 0px, rgb(255, 255, 255) 7.07299px 5.56533px 0px, rgb(255, 255, 255) 6.41227px 6.31528px 0px, rgb(255, 255, 255) 5.67248px 6.98735px 0px, rgb(255, 255, 255) 4.86272px 7.57324px 0px, rgb(255, 255, 255) 3.99299px 8.06573px 0px, rgb(255, 255, 255) 3.07402px 8.45875px 0px, rgb(255, 255, 255) 2.11714px 8.74744px 0px, rgb(255, 255, 255) 1.13414px 8.92825px 0px, rgb(255, 255, 255) 0.137162px 8.99895px 0px, rgb(255, 255, 255) -0.861512px 8.95867px 0px, rgb(255, 255, 255) -1.84956px 8.8079px 0px, rgb(255, 255, 255) -2.8148px 8.5485px 0px, rgb(255, 255, 255) -3.74532px 8.18368px 0px, rgb(255, 255, 255) -4.62965px 7.71792px 0px, rgb(255, 255, 255) -5.45689px 7.15698px 0px, rgb(255, 255, 255) -6.21682px 6.50777px 0px, rgb(255, 255, 255) -6.90009px 5.77831px 0px, rgb(255, 255, 255) -7.49825px 4.97757px 0px, rgb(255, 255, 255) -8.00394px 4.11545px 0px, rgb(255, 255, 255) -8.41092px 3.20258px 0px, rgb(255, 255, 255) -8.71416px 2.2502px 0px, rgb(255, 255, 255) -8.90993px 1.27008px 0px, rgb(255, 255, 255) -8.99582px 0.274291px 0px, rgb(255, 255, 255) -8.97076px -0.72488px 0px, rgb(255, 255, 255) -8.83507px -1.71511px 0px, rgb(255, 255, 255) -8.59041px -2.68419px 0px, rgb(255, 255, 255) -8.23981px -3.62017px 0px, rgb(255, 255, 255) -7.78758px -4.51149px 0px, rgb(255, 255, 255) -7.23931px -5.34718px 0px, rgb(255, 255, 255) -6.60176px -6.11692px 0px, rgb(255, 255, 255) -5.88279px -6.81122px 0px, rgb(255, 255, 255) -5.09127px -7.42152px 0px, rgb(255, 255, 255) -4.23696px -7.94029px 0px, rgb(255, 255, 255) -3.33039px -8.36113px 0px, rgb(255, 255, 255) -2.38275px -8.67885px 0px, rgb(255, 255, 255) -1.40572px -8.88954px 0px, rgb(255, 255, 255) -0.411357px -8.99059px 0px, rgb(255, 255, 255) 0.58808px -8.98077px 0px, rgb(255, 255, 255) 1.58026px -8.86018px 0px, rgb(255, 255, 255) 2.55296px -8.63032px 0px, rgb(255, 255, 255) 3.49417px -8.29402px 0px, rgb(255, 255, 255) 4.39229px -7.85543px 0px, rgb(255, 255, 255) 5.23623px -7.31996px 0px, rgb(255, 255, 255) 6.0156px -6.69422px 0px, rgb(255, 255, 255) 6.72078px -5.98591px 0px, rgb(255, 255, 255) 7.34307px -5.20378px 0px, rgb(255, 255, 255) 7.87479px -4.35748px 0px, rgb(255, 255, 255) 8.3094px -3.45743px 0px, rgb(255, 255, 255) 8.64153px -2.51474px 0px, rgb(255, 255, 255) 8.86709px -1.54104px 0px, rgb(255, 255, 255) 8.98328px -0.548328px 0px;
+}
+
+.label-thin-border {
+    text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px !important;
+}
+
+.full-background {
+    background-size: 100% 100%;
+}
+
+.label-border-key-visual {
+    outline-offset: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.label-border-key-visual.flip::after {
+    transform: skew(30deg);
+
+}
+.label-border-key-visual::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: calc(100% + 40px);
+    transform: skew(-30deg);
+    background: transparent;
+    border: #F27126 15px solid;
+    top: -20px;
 }
