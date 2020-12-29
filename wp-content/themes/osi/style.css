@@ -256,8 +256,8 @@ body {
     display: none !important;
 }
 @keyframes key-visual {
-    from { width: 0% }
-    to { width: 36% }
+    from { width: 0; left: -30px }
+    to { width: 36%; left: -20px }
 }
 .osi-text-label .key-visual::after {
     content: "";
@@ -268,25 +268,39 @@ body {
     top: 32%;
     z-index: -1;
     opacity: 0.8;
-}
-.first-page .osi-text-label:hover .key-visual::after {
-    animation-delay: unset !important;
-    animation-duration: 0.3s !important;
+    left: -30px;
+    transition: all 0.45s cubic-bezier(.165,.84,.44,1);
 }
 .first-page .osi-text-label:hover .key-visual::after, .key-visual.active::after {
-    animation-delay: 0.7s;
-    animation-name: key-visual;
-    animation-duration: 0.7s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+    /*animation-delay: unset !important;*/
+    /*animation-duration: 0.45s !important;*/
+    /*animation-timing-function: cubic-bezier(.165,.84,.44,1);*/
+    left: -20px !important;
+    right: unset !important;
+    width: 36%;
 }
-.osi-text-label .key-visual.left::after {
-    left: -20px;
+.first-page .osi-text-label:hover .key-visual.right::after, .key-visual.right.active::after {
+    /*animation-delay: unset !important;*/
+    /*animation-duration: 0.45s !important;*/
+    /*animation-timing-function: cubic-bezier(.165,.84,.44,1);*/
+    right: -20px !important;
+    left: unset !important;
+    width: 36%;
 }
-.osi-text-label .key-visual.right::after {
-    right: -20px;
-}
+/*.first-page .osi-text-label:hover .key-visual::after, .key-visual.active::after {*/
+/*    animation-delay: 0.7s;*/
+/*    animation-name: key-visual;*/
+/*    animation-duration: 0.7s;*/
+/*    animation-iteration-count: 1;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+/*.osi-text-label .key-visual.left::after {*/
+/*    left: -20px;*/
+/*}*/
+/*.osi-text-label .key-visual.right::after {*/
+/*    right: -20px !important;;*/
+/*}*/
 .first-page .osi-text-label {
     position: absolute;
 }
@@ -561,7 +575,7 @@ header.osi-header .logo img {
 
 .osi-orange:hover {
     color: var(--osi-orange);
-    transition: all 0.65s ease;
+    transition: all 1.05s ease;
 }
 
 .osi-orange:hover:before{
