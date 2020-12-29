@@ -20,7 +20,17 @@ $featureBg = get_theme_file_uri('assets/images/feature_bg.jpg');
 $featureInnovation = get_theme_file_uri('assets/images/feature_innovation.jpg');
 $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
 ?>
-
+    <style>
+        #video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+    </style>
     <div id="fullpage">
         <ul class="nav-pagination">
             <li>
@@ -54,7 +64,8 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
                 </a>
             </li>
         </ul>
-        <div class="section first-page active" data-section-name="home" style="background-image: url('<?php do_action('homepage-get_text', 'first_page_background', $homeBg) ?>')">
+        <div class="section first-page active" data-section-name="home">
+            <video autoplay loop preload id="video-bg" src="<?php do_action('homepage-get_media', 'first_page_background', '') ?>"></video>
             <div class="section-overlay"></div>
             <div class="first-page-info">
                 <div class="first-page-label">
@@ -305,6 +316,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             setTimeout(function() {
                 $(window).scrollTop(0);
             });
+            document.getElementById('video-bg').play();
         });
     </script>
 

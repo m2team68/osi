@@ -140,14 +140,13 @@ function theme_name_register_theme_customizer($wp_customize)
     $wp_customize->add_setting('first_page_background', [
         'default' => $homeBg
     ]);
-    $wp_customize->add_control(new WP_Customize_Image_Control(
+    $wp_customize->add_control(new WP_Customize_Media_Control(
             $wp_customize,
             'first_page_background',
             array(
                 'label' => __('Background', 'osi'),
                 'section' => 'first_page',
-                'settings' => 'first_page_background',
-                'type' => 'image'
+                'settings' => 'first_page_background'
             )
         )
     );
@@ -300,6 +299,11 @@ function getHomepageText($mod, $default = null)
 
 add_action('homepage-get_text', 'getHomepageText', 10, 2);
 
+function getHomepageMedia($mod, $default = null)
+{
+    echo wp_get_attachment_url(get_theme_mod($mod) ? get_theme_mod($mod) : $default);
+}
+add_action('homepage-get_media', 'getHomepageMedia', 10, 2);
 
 /**
  * Register Homepage widget

@@ -240,6 +240,10 @@ body {
     font-family: impact, 'sans-serif';
     /*transform: scale(.8, 1);*/
 }
+.osi-text-label span {
+    font-family: impact, 'sans-serif';
+    text-transform: uppercase;
+}
 .osi-text-label::before {
     position: absolute;
     top: 100%;

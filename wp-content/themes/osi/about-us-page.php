@@ -220,9 +220,9 @@ $aboutUs4Bg = get_theme_file_uri('assets/images/about_us_4_bg.jpg');
         $(function () {
             $.scrollify({
                 section: ".section",
-                scrollSpeed: 1500,
+                scrollSpeed: 750,
                 offset : 0,
-                easing: "swing",
+                easing: "linear",
                 scrollbars: false,
                 after: function (index, section) {
                     const nextSection = $($(section).get(index));
