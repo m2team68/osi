@@ -465,9 +465,9 @@ body {
 Header
  */
 
-header.osi-header {
-    display: flex;
-    height: 76px;
+header.osi-header {display: flex;
+    height: 126px;
+    padding-top: 20px;
     padding-left: 16px;
     padding-right: 16px;
     background: transparent;
@@ -479,7 +479,8 @@ header.osi-header {
 
 header.osi-header .logo {
     height: 100%;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 header.osi-header .logo img {
@@ -556,4 +557,21 @@ header.osi-header .logo img {
     background: transparent;
     border: #F27126 15px solid;
     top: -20px;
+}
+
+.osi-orange:hover {
+    color: var(--osi-orange);
+    transition: all 0.65s ease;
+}
+
+.osi-orange:hover:before{
+    border-color: var(--osi-orange);
+}
+
+.osi-orange:active {
+    color: white;
+}
+
+.osi-orange:hover .key-visual::after {
+    background-color: #fff;
 }
