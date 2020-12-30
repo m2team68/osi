@@ -615,6 +615,7 @@ header.osi-header .logo img {
 }
 #navigation ul ul li {
     border:none;
+    width: 100%;
     /*background: #777;*/
 }
 #navigation ul li a {
