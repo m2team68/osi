@@ -17,6 +17,8 @@
         <?php the_custom_logo(); ?>
     </div>
     <div class="header-menu">
-        <?php wp_nav_menu(); ?>
+        <?php wp_nav_menu([
+                'container_id' => 'navigation'
+        ]); ?>
     </div>
 </header>
