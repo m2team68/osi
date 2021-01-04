@@ -134,10 +134,10 @@ $operation = get_theme_file_uri('assets/images/operation.png');
             <div class="section-content">
                 <div class="pas_1-label label-border-key-visual flip">
                     <div class="up osi-label-gray">
-                        ONE-STOP VALUE
+                        INTEGRATED PROPERTY
                     </div>
                     <div class="down osi-label-darkgray label-thin-border">
-                        CHAIN PROVIDER
+                        DEVELOPMENT
                     </div>
                 </div>
             </div>
