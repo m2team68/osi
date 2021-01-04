@@ -1,0 +1,6732 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: jonny\n"
+"POT-Creation-Date: 2018-03-06 13:47+0200\n"
+"PO-Revision-Date: 2018-03-06 13:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "Oops... You got lost."
+msgstr ""
+
+#: 404.php:12 assets/customizer.php:792
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non earum "
+"consectetur, ratione."
+msgstr ""
+
+#: 404.php:17
+msgid "Go Back"
+msgstr ""
+
+#: archive.php:63 archive.php:99 archive.php:150 archive.php:191
+#: assets/customizer.php:94 category.php:62 category.php:98 category.php:149
+#: category.php:197 search.php:135 search.php:199
+#: taxonomy-portfolio_categories.php:52
+msgid "More posts"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:334 assets/tgm.php:80
+msgid "Install Required Plugins"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:335 assets/tgm.php:81
+msgid "Install Plugins"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:337 assets/tgm.php:82
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:340 assets/tgm.php:84
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:343 assets/tgm.php:85
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:349 assets/tgm.php:88
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:355 assets/tgm.php:103
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:367 assets/tgm.php:94
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:373 assets/tgm.php:97
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:378 assets/tgm.php:109
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:388 assets/tgm.php:110
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:392 assets/tgm.php:111
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:393
+#: assets/class-tgm-plugin-activation.php:912
+#: assets/class-tgm-plugin-activation.php:2618
+#: assets/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:394
+#: assets/class-tgm-plugin-activation.php:3244 assets/tgm.php:112
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:395
+#: assets/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1019
+#: assets/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1206
+#: assets/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3594
+#: assets/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3594
+#: assets/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/customizer.php:12
+msgid "Blog settings"
+msgstr ""
+
+#: assets/customizer.php:13
+msgid "Settings of the blog"
+msgstr ""
+
+#: assets/customizer.php:25
+msgid "Side menu"
+msgstr ""
+
+#: assets/customizer.php:45
+msgid "Menu copyright"
+msgstr ""
+
+#: assets/customizer.php:60 assets/customizer.php:71
+msgid "Location sidebar"
+msgstr ""
+
+#: assets/customizer.php:76
+msgid "Sidebar Left"
+msgstr ""
+
+#: assets/customizer.php:77
+msgid "Sidebar Right"
+msgstr ""
+
+#: assets/customizer.php:86 assets/customizer.php:233
+msgid "Blog list"
+msgstr ""
+
+#: assets/customizer.php:98
+msgid "Button text More posts"
+msgstr ""
+
+#: assets/customizer.php:111
+msgid "Limit word in post blog list"
+msgstr ""
+
+#: assets/customizer.php:125
+msgid "Select blog type"
+msgstr ""
+
+#: assets/customizer.php:130
+msgid "default"
+msgstr ""
+
+#: assets/customizer.php:131
+msgid "column 2"
+msgstr ""
+
+#: assets/customizer.php:132
+msgid "column 3"
+msgstr ""
+
+#: assets/customizer.php:133 functions.php:108
+msgid "blog sidebar"
+msgstr ""
+
+#: assets/customizer.php:144
+msgid "Social networks"
+msgstr ""
+
+#: assets/customizer.php:146
+msgid "Enter url desired social networks so that they appear on the site"
+msgstr ""
+
+#: assets/customizer.php:158
+msgid " Insert Social shortcode or another "
+msgstr ""
+
+#: assets/customizer.php:160
+msgid ""
+"its show  shortcode [jonny_social_links url=\"https://pinterest.com/\" class="
+"\"fa fa-pinterest\"]"
+msgstr ""
+
+#: assets/customizer.php:173
+msgid "Facebook  url"
+msgstr ""
+
+#: assets/customizer.php:186
+msgid "Twitter url"
+msgstr ""
+
+#: assets/customizer.php:199
+msgid "googleplus url"
+msgstr ""
+
+#: assets/customizer.php:212
+msgid "linkedin url"
+msgstr ""
+
+#: assets/customizer.php:225
+msgid "dribbble url"
+msgstr ""
+
+#: assets/customizer.php:247
+msgid "Setting email"
+msgstr ""
+
+#: assets/customizer.php:260
+msgid " Insert your email"
+msgstr ""
+
+#: assets/customizer.php:262
+msgid "can specify one email"
+msgstr ""
+
+#: assets/customizer.php:273
+msgid "Email sitting"
+msgstr ""
+
+#: assets/customizer.php:282
+msgid "Enter email"
+msgstr ""
+
+#: assets/customizer.php:285
+msgid "can specify  one email"
+msgstr ""
+
+#: assets/customizer.php:300
+msgid "Logo"
+msgstr ""
+
+#: assets/customizer.php:302
+msgid "Here You can change the logo in the header and in the footer"
+msgstr ""
+
+#: assets/customizer.php:314
+msgid " Logo"
+msgstr ""
+
+#: assets/customizer.php:328
+msgid "Logo name"
+msgstr ""
+
+#: assets/customizer.php:344
+msgid "Logo text"
+msgstr ""
+
+#: assets/customizer.php:382
+msgid "Body main "
+msgstr ""
+
+#: assets/customizer.php:385
+msgid "Link "
+msgstr ""
+
+#: assets/customizer.php:388
+msgid "Title text "
+msgstr ""
+
+#: assets/customizer.php:391
+msgid "blockquote and comment border"
+msgstr ""
+
+#: assets/customizer.php:394
+msgid "blockquote and comment "
+msgstr ""
+
+#: assets/customizer.php:397
+msgid "Footer widget calendar border "
+msgstr ""
+
+#: assets/customizer.php:400
+msgid "Sticky bloginfo title"
+msgstr ""
+
+#: assets/customizer.php:403
+msgid "Recent comment link"
+msgstr ""
+
+#: assets/customizer.php:407
+msgid "Footer sidebar rss"
+msgstr ""
+
+#: assets/customizer.php:410
+msgid "Navigation mobile link "
+msgstr ""
+
+#: assets/customizer.php:413
+msgid "Statistics number "
+msgstr ""
+
+#: assets/customizer.php:416
+msgid "Form textarea border buttom "
+msgstr ""
+
+#: assets/customizer.php:419
+msgid "Form subscribe placeholder text "
+msgstr ""
+
+#: assets/customizer.php:422
+msgid "Form validation label text "
+msgstr ""
+
+#: assets/customizer.php:425
+msgid "Form validation error text "
+msgstr ""
+
+#: assets/customizer.php:428
+msgid "Button focuse, button viole "
+msgstr ""
+
+#: assets/customizer.php:431
+msgid "Banner dark, button dark background "
+msgstr ""
+
+#: assets/customizer.php:434
+msgid "Banner blue, button blue background "
+msgstr ""
+
+#: assets/customizer.php:437
+msgid "Brown button, background brown "
+msgstr ""
+
+#: assets/customizer.php:440
+msgid "Text dark "
+msgstr ""
+
+#: assets/customizer.php:443
+msgid "Category name. post name "
+msgstr ""
+
+#: assets/customizer.php:446
+msgid "Background dark"
+msgstr ""
+
+#: assets/customizer.php:449
+msgid "Left menu link brandpanel "
+msgstr ""
+
+#: assets/customizer.php:452
+msgid "Background light"
+msgstr ""
+
+#: assets/customizer.php:455 assets/customizer.php:458
+msgid "Background violet"
+msgstr ""
+
+#: assets/customizer.php:461 assets/customizer.php:727
+msgid "Footer"
+msgstr ""
+
+#: assets/customizer.php:464
+msgid "Recent entries"
+msgstr ""
+
+#: assets/customizer.php:467
+msgid "Button gray"
+msgstr ""
+
+#: assets/customizer.php:470
+msgid "Menu link hover, active"
+msgstr ""
+
+#: assets/customizer.php:473
+msgid "Background yellow"
+msgstr ""
+
+#: assets/customizer.php:476
+msgid "Mobile menu link "
+msgstr ""
+
+#: assets/customizer.php:479
+msgid "Left menu link background "
+msgstr ""
+
+#: assets/customizer.php:482
+msgid "Left menu link hover "
+msgstr ""
+
+#: assets/customizer.php:485
+msgid "Left menu link "
+msgstr ""
+
+#: assets/customizer.php:488
+msgid "Statistics dark column border "
+msgstr ""
+
+#: assets/customizer.php:491
+msgid "Portfolio image popup background "
+msgstr ""
+
+#: assets/customizer.php:494
+msgid "Blog author name text "
+msgstr ""
+
+#: assets/customizer.php:497
+msgid "Blog tags background "
+msgstr ""
+
+#: assets/customizer.php:500
+msgid "Blog tags text "
+msgstr ""
+
+#: assets/customizer.php:503
+msgid "Client reviews qute icon "
+msgstr ""
+
+#: assets/customizer.php:506
+msgid "Owl reviews slider pagination "
+msgstr ""
+
+#: assets/customizer.php:509
+msgid "Address icon "
+msgstr ""
+
+#: assets/customizer.php:512
+msgid "Address title "
+msgstr ""
+
+#: assets/customizer.php:515
+msgid "Footer light background "
+msgstr ""
+
+#: assets/customizer.php:518
+msgid "Footer bottom text "
+msgstr ""
+
+#: assets/customizer.php:521
+msgid "Model info text "
+msgstr ""
+
+#: assets/customizer.php:525
+msgid "Statistics column border "
+msgstr ""
+
+#: assets/customizer.php:528
+msgid "bg yellow "
+msgstr ""
+
+#: assets/customizer.php:538
+msgid "Color "
+msgstr ""
+
+#: assets/customizer.php:551
+msgid "Performance"
+msgstr ""
+
+#: assets/customizer.php:564
+msgid "Enable preloader ?"
+msgstr ""
+
+#: assets/customizer.php:579
+msgid "Enable smoothscroll?"
+msgstr ""
+
+#: assets/customizer.php:594
+msgid "Enable navbar affix?"
+msgstr ""
+
+#: assets/customizer.php:610 assets/customizer.php:623
+msgid "Contact form shortcode"
+msgstr ""
+
+#: assets/customizer.php:633 plugins/jonny_plugin/index.php:84
+msgid "Send request"
+msgstr ""
+
+#: assets/customizer.php:638
+msgid "modal title"
+msgstr ""
+
+#: assets/customizer.php:646 plugins/jonny_plugin/index.php:141
+msgid "Thank you"
+msgstr ""
+
+#: assets/customizer.php:651
+msgid "Modal susses title"
+msgstr ""
+
+#: assets/customizer.php:663 plugins/jonny_plugin/index.php:144
+msgid "Your message is successfully sent..."
+msgstr ""
+
+#: assets/customizer.php:668
+msgid "Modal susses subtitle"
+msgstr ""
+
+#: assets/customizer.php:679 assets/customizer.php:715
+#: plugins/jonny_plugin/index.php:161
+msgid "Sorry"
+msgstr ""
+
+#: assets/customizer.php:684
+msgid "Modal error title"
+msgstr ""
+
+#: assets/customizer.php:694 plugins/jonny_plugin/index.php:164
+msgid "Something went wrong"
+msgstr ""
+
+#: assets/customizer.php:699
+msgid "Modal error subtitle"
+msgstr ""
+
+#: assets/customizer.php:740
+msgid "Footer copyright"
+msgstr ""
+
+#: assets/customizer.php:753
+msgid "404"
+msgstr ""
+
+#: assets/customizer.php:767
+msgid "404 page Top img"
+msgstr ""
+
+#: assets/customizer.php:775
+msgid "main_title"
+msgstr ""
+
+#: assets/customizer.php:781 assets/customizer.php:878
+msgid "Top title"
+msgstr ""
+
+#: assets/customizer.php:784
+msgid "insert title (for example 404 Page) )"
+msgstr ""
+
+#: assets/customizer.php:797 assets/customizer.php:894
+msgid "Insert your description"
+msgstr ""
+
+#: assets/customizer.php:800 assets/customizer.php:817
+#: assets/customizer.php:897 assets/customizer.php:914
+msgid "(insert text )"
+msgstr ""
+
+#: assets/customizer.php:809 assets/customizer.php:906
+msgid "Back home"
+msgstr ""
+
+#: assets/customizer.php:814 assets/customizer.php:911
+msgid "Insert your button text"
+msgstr ""
+
+#: assets/customizer.php:832 assets/customizer.php:929
+msgid "Insert your button url"
+msgstr ""
+
+#: assets/customizer.php:835 assets/customizer.php:932
+msgid "(insert url )"
+msgstr ""
+
+#: assets/customizer.php:850
+msgid "Comming soon page"
+msgstr ""
+
+#: assets/customizer.php:864
+msgid "Comming soon page Top img"
+msgstr ""
+
+#: assets/customizer.php:872
+msgid "Main_title"
+msgstr ""
+
+#: assets/customizer.php:874 comming_soon.php:7
+msgid "Comming Soon..."
+msgstr ""
+
+#: assets/customizer.php:881
+msgid "insert title (for example Comming soon Page) )"
+msgstr ""
+
+#: assets/customizer.php:889 comming_soon.php:12
+msgid ""
+"We receive result combining marketing, a creative and industry experience."
+msgstr ""
+
+#: assets/customizer.php:946
+msgid "Mailchimp / Subscribe "
+msgstr ""
+
+#: assets/customizer.php:948
+msgid "Specify api key and ID list"
+msgstr ""
+
+#: assets/customizer.php:956
+msgid "API key"
+msgstr ""
+
+#: assets/customizer.php:968
+msgid "ID list"
+msgstr ""
+
+#: assets/tgm.php:91
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/tgm.php:100
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/tgm.php:106
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/tgm.php:113
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: assets/widgets.php:36 assets/widgets.php:40
+msgid "jonny author"
+msgstr ""
+
+#: assets/widgets.php:37
+msgid "It displays information about the author"
+msgstr ""
+
+#: assets/widgets.php:53 assets/widgets.php:130
+msgid "ABOUT ME"
+msgstr ""
+
+#: assets/widgets.php:55 assets/widgets.php:132
+msgid "TOM ROBBINS"
+msgstr ""
+
+#: assets/widgets.php:56 assets/widgets.php:133
+msgid "WEB DESIGNER"
+msgstr ""
+
+#: assets/widgets.php:66 assets/widgets.php:304 assets/widgets.php:600
+#: assets/widgets.php:768 assets/widgets.php:901
+msgid "Title:"
+msgstr ""
+
+#: assets/widgets.php:75
+msgid "Author photo:"
+msgstr ""
+
+#: assets/widgets.php:85
+msgid "Author photo(insert image url)"
+msgstr ""
+
+#: assets/widgets.php:96
+msgid "Author name:"
+msgstr ""
+
+#: assets/widgets.php:107
+msgid "Author profession:"
+msgstr ""
+
+#: assets/widgets.php:191 assets/widgets.php:195
+msgid "jonny  Menu"
+msgstr ""
+
+#: assets/widgets.php:192
+msgid "It displays Menu"
+msgstr ""
+
+#: assets/widgets.php:297
+msgid "No menus have been created yet."
+msgstr ""
+
+#: assets/widgets.php:297
+msgid "Create some"
+msgstr ""
+
+#: assets/widgets.php:312
+msgid "Select Menu:"
+msgstr ""
+
+#: assets/widgets.php:315
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: assets/widgets.php:332
+msgid "jonny footer info"
+msgstr ""
+
+#: assets/widgets.php:333
+msgid "It displays footer information"
+msgstr ""
+
+#: assets/widgets.php:336
+msgid "jonny footer_info"
+msgstr ""
+
+#: assets/widgets.php:350 assets/widgets.php:419
+msgid "We create web products for the help and growth of your business"
+msgstr ""
+
+#: assets/widgets.php:364 assets/widgets.php:1007
+msgid " Insert title"
+msgstr ""
+
+#: assets/widgets.php:374 assets/widgets.php:384
+msgid " Insert text:"
+msgstr ""
+
+#: assets/widgets.php:394 assets/widgets.php:505
+msgid " Insert email:"
+msgstr ""
+
+#: assets/widgets.php:465
+msgid "jonny footer contact"
+msgstr ""
+
+#: assets/widgets.php:466
+msgid "It displays footer contacts"
+msgstr ""
+
+#: assets/widgets.php:469
+msgid "jonny footer_contact"
+msgstr ""
+
+#: assets/widgets.php:483
+msgid "+8 800 555 35 35 "
+msgstr ""
+
+#: assets/widgets.php:495
+msgid " Insert phone"
+msgstr ""
+
+#: assets/widgets.php:570
+msgid "jonny  Recent posts"
+msgstr ""
+
+#: assets/widgets.php:571 assets/widgets.php:740
+msgid "It displays a list of tweets"
+msgstr ""
+
+#: assets/widgets.php:574 assets/widgets.php:743
+msgid "jonny Tweets2"
+msgstr ""
+
+#: assets/widgets.php:587 assets/widgets.php:652 assets/widgets.php:727
+msgid "Recent posts"
+msgstr ""
+
+#: assets/widgets.php:612 assets/widgets.php:780
+msgid "How many show post?"
+msgstr ""
+
+#: assets/widgets.php:626
+msgid "Description:"
+msgstr ""
+
+#: assets/widgets.php:739
+msgid "jonny Recent comments"
+msgstr ""
+
+#: assets/widgets.php:756 assets/widgets.php:810 assets/widgets.php:864
+msgid "Recent comments"
+msgstr ""
+
+#: assets/widgets.php:877 assets/widgets.php:881
+msgid "jonny TAG"
+msgstr ""
+
+#: assets/widgets.php:878
+msgid "It displays a list of TAG"
+msgstr ""
+
+#: assets/widgets.php:922
+msgid "Tags"
+msgstr ""
+
+#: assets/widgets.php:976 assets/widgets.php:980
+msgid "jonny newsletter"
+msgstr ""
+
+#: assets/widgets.php:977
+msgid "It displays newsletter form"
+msgstr ""
+
+#: assets/widgets.php:994 assets/widgets.php:1053
+msgid "NEWSLETTER"
+msgstr ""
+
+#: assets/widgets.php:1017
+msgid " Insert placeholder text:"
+msgstr ""
+
+#: assets/widgets.php:1028
+msgid " Description:"
+msgstr ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Post a comment"
+msgstr ""
+
+#: comments.php:75
+#, php-format
+msgid "Leave a comment to %s"
+msgstr ""
+
+#: comments.php:79
+msgid "Name *"
+msgstr ""
+
+#: comments.php:84 plugins/jonny_plugin/index.php:99
+msgid "Email *"
+msgstr ""
+
+#: comments.php:89
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:91 plugins/jonny_plugin/index.php:100
+msgid "Submit"
+msgstr ""
+
+#: comments.php:93
+msgid "Post comment"
+msgstr ""
+
+#: comming_soon.php:17
+msgid "back home"
+msgstr ""
+
+#: functions.php:54
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:104
+msgid "jonny blog sidebar"
+msgstr ""
+
+#: functions.php:156
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:207
+msgid "Previous"
+msgstr ""
+
+#: functions.php:209
+msgid "Next"
+msgstr ""
+
+#: header.php:112
+msgid "Jonny "
+msgstr ""
+
+#: header.php:112
+msgid ". All Rights Resevered "
+msgstr ""
+
+#: partials/col2content.php:33
+msgid "Read more "
+msgstr ""
+
+#: partials/col3content.php:33 partials/col3content.php:51
+#: partials/content.php:46 partials/content.php:69 partials/content.php:102
+msgid "by "
+msgstr ""
+
+#: partials/content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/content-none.php:10
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: partials/content-none.php:14 search.php:63 search.php:120 search.php:184
+#: search.php:234
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: partials/content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: partials/content.php:126
+msgid "Tags "
+msgstr ""
+
+#: partials/post-autor.php:23
+msgid "by"
+msgstr ""
+
+#: partials/single-meta.php:5
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:921
+msgid "Share:"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:10
+msgid "jonny et line icons"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:12
+msgid "social googleplus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:13
+msgid "home"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:14
+msgid "home2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:15
+msgid "home3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:16
+msgid "home4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:17
+msgid "home5"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:18
+msgid "home6"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:19
+msgid "bathtub"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:20
+msgid "toothbrush"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:21
+msgid "bed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:22
+msgid "couch"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:23
+msgid "chair"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:24
+msgid "city"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:25
+msgid "apartment"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:26
+msgid "pencil"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:27
+msgid "pencil2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:28
+msgid "pen"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:29
+msgid "pencil3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:30
+msgid "eraser"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:31
+msgid "pencil4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:32
+msgid "pencil5"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:33
+msgid "feather"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:34
+msgid "feather2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:35
+msgid "feather3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:36
+msgid "pen2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:37
+msgid "pen add"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:38
+msgid "pen remove"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:39
+msgid "vector"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:40
+msgid "pen3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:41
+msgid "blog"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:42
+msgid "brush"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:43
+msgid "brush2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:44
+msgid "spray"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:45
+msgid "paint roller"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:46
+msgid "stamp"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:47
+msgid "tape"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:48
+msgid "desk tape"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:49
+msgid "texture"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:50
+msgid "eye dropper"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:51
+msgid "palette"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:52
+msgid "color sampler"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:53
+msgid "bucket"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:54
+msgid "gradient"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:55
+msgid "gradient2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:56
+msgid "magic wand"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:57
+msgid "magnet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:58
+msgid "pencil ruler"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:59
+msgid "pencil ruler2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:60
+msgid "compass"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:61
+msgid "aim"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:62
+msgid "gun"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:63
+msgid "bottle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:64
+msgid "drop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:65
+msgid "drop crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:66
+msgid "drop2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:67
+msgid "snow"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:68
+msgid "snow2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:69
+msgid "fire"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:70
+msgid "lighter"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:71
+msgid "knife"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:72
+msgid "dagger"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:73
+msgid "tissue"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:74
+msgid "toilet paper"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:75
+msgid "poop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:76
+msgid "umbrella"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:77
+msgid "umbrella2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:78
+msgid "rain"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:79
+msgid "tornado"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:80
+msgid "wind"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:81
+msgid "fan"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:82
+msgid "contrast"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:83
+msgid "sun small"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:84
+msgid "sun"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:85
+msgid "sun2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:86
+msgid "moon"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:87
+msgid "cloud"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:88
+msgid "cloud upload"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:89
+msgid "cloud download"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:90
+msgid "cloud rain"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:91
+msgid "cloud hailstones"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:92
+msgid "cloud snow"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:93
+msgid "cloud windy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:94
+msgid "sun wind"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:95
+msgid "cloud fog"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:96
+msgid "cloud sun"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:97
+msgid "cloud lightning"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:98
+msgid "cloud sync"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:99
+msgid "cloud lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:100
+msgid "cloud gear"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:101
+msgid "cloud alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:102
+msgid "cloud check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:103
+msgid "cloud cross"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:104
+msgid "cloud crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:105
+msgid "cloud database"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:106
+msgid "database"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:107
+msgid "database add"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:108
+msgid "database remove"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:109
+msgid "database lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:110
+msgid "database refresh"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:111
+msgid "database check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:112
+msgid "database history"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:113
+msgid "database upload"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:114
+msgid "database download"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:115
+msgid "server"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:116
+msgid "shield"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:117
+msgid "shield check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:118
+msgid "shield alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:119
+msgid "shield cross"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:120
+msgid "lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:121
+msgid "rotation lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:122
+msgid "unlock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:123
+msgid "key"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:124
+msgid "key hole"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:125
+msgid "toggle off"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:126
+msgid "toggle on"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:127
+msgid "cog"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:128
+msgid "cog2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:129
+msgid "wrench"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:130
+msgid "screwdriver"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:131
+msgid "hammer wrench"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:132
+msgid "hammer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:133
+msgid "saw"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:134
+msgid "axe"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:135
+msgid "axe2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:136
+msgid "shovel"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:137
+msgid "pickaxe"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:138
+msgid "factory"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:139
+msgid "factory2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:140
+msgid "recycle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:141
+msgid "trash"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:142
+msgid "trash2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:143
+msgid "trash3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:144
+msgid "broom"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:145
+msgid "game"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:146
+msgid "gamepad"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:147
+msgid "joystick"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:148
+msgid "dice"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:149
+msgid "spades"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:150
+msgid "diamonds"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:151
+msgid "clubs"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:152
+msgid "hearts"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:153
+msgid "heart"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:154
+msgid "star"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:155
+msgid "star half"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:156
+msgid "star empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:157
+msgid "flag"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:158
+msgid "flag2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:159
+msgid "flag3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:160
+msgid "mailbox full"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:161
+msgid "mailbox empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:162
+msgid "at sign"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:163
+msgid "envelope"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:164
+msgid "envelope open"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:165
+msgid "paperclip"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:166
+msgid "paper plane"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:167
+msgid "reply"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:168
+msgid "reply all"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:169
+msgid "inbox"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:170
+msgid "inbox2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:171
+msgid "outbox"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:172
+msgid "box"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:173
+msgid "archive"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:174
+msgid "archive2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:175
+msgid "drawers"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:176
+msgid "drawers2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:177
+msgid "drawers3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:178
+msgid "eye"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:179
+msgid "eye crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:180
+msgid "eye plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:181
+msgid "eye minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:182
+msgid "binoculars"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:183
+msgid "binoculars2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:184
+msgid "hdd"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:185
+msgid "hdd down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:186
+msgid "hdd up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:187
+msgid "floppy disk"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:188
+msgid "disc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:189
+msgid "tape2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:190
+msgid "printer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:191
+msgid "shredder"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:192
+msgid "file empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:193
+msgid "file add"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:194
+msgid "file check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:195
+msgid "file lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:196
+msgid "files"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:197
+msgid "copy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:198
+msgid "compare"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:199
+msgid "folder"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:200
+msgid "folder search"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:201
+msgid "folder plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:202
+msgid "folder minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:203
+msgid "folder download"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:204
+msgid "folder upload"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:205
+msgid "folder star"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:206
+msgid "folder heart"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:207
+msgid "folder user"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:208
+msgid "folder shared"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:209
+msgid "folder music"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:210
+msgid "folder picture"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:211
+msgid "folder film"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:212
+msgid "scissors"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:213
+msgid "paste"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:214
+msgid "clipboard empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:215
+msgid "clipboard pencil"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:216
+msgid "clipboard text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:217
+msgid "clipboard check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:218
+msgid "clipboard down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:219
+msgid "clipboard left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:220
+msgid "clipboard alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:221
+msgid "clipboard user"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:222
+msgid "register"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:223
+msgid "enter"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:224
+msgid "exit"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:225
+msgid "papers"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:226
+msgid "news"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:227
+msgid "reading"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:228
+msgid "typewriter"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:229
+msgid "document"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:230
+msgid "document2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:231
+msgid "graduation hat"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:232
+msgid "license"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:233
+msgid "license2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:234
+msgid "medal empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:235
+msgid "medal first"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:236
+msgid "medal second"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:237
+msgid "medal third"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:238
+msgid "podium"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:239
+msgid "trophy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:240
+msgid "trophy2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:241
+msgid "music note"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:242
+msgid "music note2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:243
+msgid "music note3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:244
+msgid "playlist"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:245
+msgid "playlist add"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:246
+msgid "guitar"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:247
+msgid "trumpet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:248
+msgid "album"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:249
+msgid "shuffle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:250
+msgid "repeat one"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:251
+msgid "repeat"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:252
+msgid "headphones"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:253
+msgid "headset"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:254
+msgid "loudspeaker"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:255
+msgid "equalizer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:256
+msgid "theater"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:257
+msgid "3d glasses"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:258
+msgid "ticket"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:259
+msgid "presentation"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:260
+msgid "play"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:261
+msgid "film play"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:262
+msgid "clapboard play"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:263
+msgid "media"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:264
+msgid "film"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:265
+msgid "film2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:266
+msgid "surveillance"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:267
+msgid "surveillance2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:268
+msgid "camera"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:269
+msgid "camera crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:270
+msgid "camera play"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:271
+msgid "time lapse"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:272
+msgid "record"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:273
+msgid "camera2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:274
+msgid "camera flip"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:275
+msgid "panorama"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:276
+msgid "time lapse2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:277
+msgid "shutter"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:278
+msgid "shutter2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:279
+msgid "face detection"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:280
+msgid "flare"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:281
+msgid "convex"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:282
+msgid "concave"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:283
+msgid "picture"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:284
+msgid "picture2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:285
+msgid "picture3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:286
+msgid "pictures"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:287
+msgid "book"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:288
+msgid "audio book"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:289
+msgid "book2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:290
+msgid "bookmark"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:291
+msgid "bookmark2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:292
+msgid "label"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:293
+msgid "library"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:294
+msgid "library2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:295
+msgid "contacts"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:296
+msgid "profile"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:297
+msgid "portrait"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:298
+msgid "portrait2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:299
+msgid "user"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:300
+msgid "user plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:301
+msgid "user minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:302
+msgid "user lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:303
+msgid "users"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:304
+msgid "users2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:305
+msgid "users plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:306
+msgid "users minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:307
+msgid "group work"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:308
+msgid "woman"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:309
+msgid "man"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:310
+msgid "baby"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:311
+msgid "baby2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:312
+msgid "baby3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:313
+msgid "baby bottle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:314
+msgid "walk"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:315
+msgid "hand waving"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:316
+msgid "jump"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:317
+msgid "run"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:318
+msgid "woman2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:319
+msgid "man2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:320
+msgid "man woman"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:321
+msgid "height"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:322
+msgid "weight"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:323
+msgid "scale"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:324
+msgid "button"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:325
+msgid "bow tie"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:326
+msgid "tie"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:327
+msgid "socks"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:328
+msgid "shoe"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:329
+msgid "shoes"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:330
+msgid "hat"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:331
+msgid "pants"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:332
+msgid "shorts"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:333
+msgid "flip flops"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:334
+msgid "shirt"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:335
+msgid "hanger"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:336
+msgid "laundry"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:337
+msgid "store"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:338
+msgid "haircut"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:339
+msgid "store 24"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:340
+msgid "barcode"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:341
+msgid "barcode2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:342
+msgid "barcode3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:343
+msgid "cashier"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:344
+msgid "bag"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:345
+msgid "bag2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:346
+msgid "cart"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:347
+msgid "cart empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:348
+msgid "cart full"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:349
+msgid "cart plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:350
+msgid "cart plus2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:351
+msgid "cart add"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:352
+msgid "cart remove"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:353
+msgid "cart exchange"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:354
+msgid "tag"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:355
+msgid "tags"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:356
+msgid "receipt"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:357
+msgid "wallet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:358
+msgid "credit card"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:359
+msgid "cash dollar"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:360
+msgid "cash euro"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:361
+msgid "cash pound"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:362
+msgid "cash yen"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:363
+msgid "bag dollar"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:364
+msgid "bag euro"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:365
+msgid "bag pound"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:366
+msgid "bag yen"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:367
+msgid "coin dollar"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:368
+msgid "coin euro"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:369
+msgid "coin pound"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:370
+msgid "coin yen"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:371
+msgid "calculator"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:372
+msgid "calculator2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:373
+msgid "abacus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:374
+msgid "vault"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:375
+msgid "telephone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:376
+msgid "phone lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:377
+msgid "phone wave"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:378
+msgid "phone pause"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:379
+msgid "phone outgoing"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:380
+msgid "phone incoming"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:381
+msgid "phone in out"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:382
+msgid "phone error"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:383
+msgid "phone sip"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:384
+msgid "phone plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:385
+msgid "phone minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:386
+msgid "voicemail"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:387
+msgid "dial"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:388
+msgid "telephone2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:389
+msgid "pushpin"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:390
+msgid "pushpin2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:391
+msgid "map marker"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:392
+msgid "map marker user"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:393
+msgid "map marker down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:394
+msgid "map marker check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:395
+msgid "map marker crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:396
+msgid "radar"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:397
+msgid "compass2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:398
+msgid "map"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:399
+msgid "map2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:400
+msgid "location"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:401
+msgid "road sign"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:402
+msgid "calendar empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:403
+msgid "calendar check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:404
+msgid "calendar cross"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:405
+msgid "calendar 31"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:406
+msgid "calendar full"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:407
+msgid "calendar insert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:408
+msgid "calendar text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:409
+msgid "calendar user"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:410
+msgid "mouse"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:411
+msgid "mouse left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:412
+msgid "mouse right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:413
+msgid "mouse both"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:414
+msgid "keyboard"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:415
+msgid "keyboard up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:416
+msgid "keyboard down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:417
+msgid "delete"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:418
+msgid "spell check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:419
+msgid "escape"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:420
+msgid "enter2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:421
+msgid "screen"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:422
+msgid "aspect ratio"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:423
+msgid "signal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:424
+msgid "signal lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:425
+msgid "signal 80"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:426
+msgid "signal 60"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:427
+msgid "signal 40"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:428
+msgid "signal 20"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:429
+msgid "signal 0"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:430
+msgid "signal blocked"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:431
+msgid "sim"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:432
+msgid "flash memory"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:433
+msgid "usb drive"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:434
+msgid "phone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:435
+msgid "smartphone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:436
+msgid "smartphone notification"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:437
+msgid "smartphone vibration"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:438
+msgid "smartphone embed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:439
+msgid "smartphone waves"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:440
+msgid "tablet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:441
+msgid "tablet2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:442
+msgid "laptop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:443
+msgid "laptop phone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:444
+msgid "desktop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:445
+msgid "launch"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:446
+msgid "new tab"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:447
+msgid "window"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:448
+msgid "cable"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:449
+msgid "cable2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:450
+msgid "tv"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:451
+msgid "radio"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:452
+msgid "remote control"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:453
+msgid "power switch"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:454
+msgid "power"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:455
+msgid "power crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:456
+msgid "flash auto"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:457
+msgid "lamp"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:458
+msgid "flashlight"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:459
+msgid "lampshade"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:460
+msgid "cord"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:461
+msgid "outlet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:462
+msgid "battery power"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:463
+msgid "battery empty"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:464
+msgid "battery alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:465
+msgid "battery error"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:466
+msgid "battery low1"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:467
+msgid "battery low2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:468
+msgid "battery low3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:469
+msgid "battery mid1"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:470
+msgid "battery mid2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:471
+msgid "battery mid3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:472
+msgid "battery full"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:473
+msgid "battery charging"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:474
+msgid "battery charging2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:475
+msgid "battery charging3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:476
+msgid "battery charging4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:477
+msgid "battery charging5"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:478
+msgid "battery charging6"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:479
+msgid "battery charging7"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:480
+msgid "chip"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:481
+msgid "chip x64"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:482
+msgid "chip x86"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:483
+msgid "bubble"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:484
+msgid "bubbles"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:485
+msgid "bubble dots"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:486
+msgid "bubble alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:487
+msgid "bubble question"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:488
+msgid "bubble text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:489
+msgid "bubble pencil"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:490
+msgid "bubble picture"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:491
+msgid "bubble video"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:492
+msgid "bubble user"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:493
+msgid "bubble quote"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:494
+msgid "bubble heart"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:495
+msgid "bubble emoticon"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:496
+msgid "bubble attachment"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:497
+msgid "phone bubble"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:498
+msgid "quote open"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:499
+msgid "quote close"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:500
+msgid "dna"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:501
+msgid "heart pulse"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:502
+msgid "pulse"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:503
+msgid "syringe"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:504
+msgid "pills"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:505
+msgid "first aid"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:506
+msgid "lifebuoy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:507
+msgid "bandage"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:508
+msgid "bandages"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:509
+msgid "thermometer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:510
+msgid "microscope"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:511
+msgid "brain"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:512
+msgid "beaker"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:513
+msgid "skull"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:514
+msgid "bone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:515
+msgid "construction"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:516
+msgid "construction cone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:517
+msgid "pie chart"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:518
+msgid "pie chart2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:519
+msgid "graph"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:520
+msgid "chart growth"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:521
+msgid "chart bars"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:522
+msgid "chart settings"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:523
+msgid "cake"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:524
+msgid "gift"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:525
+msgid "balloon"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:526
+msgid "rank"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:527
+msgid "rank2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:528
+msgid "rank3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:529
+msgid "crown"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:530
+msgid "lotus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:531
+msgid "diamond"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:532
+msgid "diamond2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:533
+msgid "diamond3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:534
+msgid "diamond4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:535
+msgid "linearicons"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:536
+msgid "teacup"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:537
+msgid "teapot"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:538
+msgid "glass"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:539
+msgid "bottle2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:540
+msgid "glass cocktail"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:541
+msgid "glass2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:542
+msgid "dinner"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:543
+msgid "dinner2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:544
+msgid "chef"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:545
+msgid "scale2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:546
+msgid "egg"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:547
+msgid "egg2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:548
+msgid "eggs"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:549
+msgid "platter"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:550
+msgid "steak"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:551
+msgid "hamburger"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:552
+msgid "hotdog"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:553
+msgid "pizza"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:554
+msgid "sausage"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:555
+msgid "chicken"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:556
+msgid "fish"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:557
+msgid "carrot"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:558
+msgid "cheese"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:559
+msgid "bread"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:560
+msgid "ice cream"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:561
+msgid "ice cream2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:562
+msgid "candy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:563
+msgid "lollipop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:564
+msgid "coffee bean"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:565
+msgid "coffee cup"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:566
+msgid "cherry"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:567
+msgid "grapes"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:568
+msgid "citrus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:569
+msgid "apple"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:570
+msgid "leaf"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:571
+msgid "landscape"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:572
+msgid "pine tree"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:573
+msgid "tree"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:574
+msgid "cactus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:575
+msgid "paw"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:576
+msgid "footprint"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:577
+msgid "speed slow"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:578
+msgid "speed medium"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:579
+msgid "speed fast"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:580
+msgid "rocket"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:581
+msgid "hammer2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:582
+msgid "balance"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:583
+msgid "briefcase"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:584
+msgid "luggage weight"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:585
+msgid "dolly"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:586
+msgid "plane"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:587
+msgid "plane crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:588
+msgid "helicopter"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:589
+msgid "traffic lights"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:590
+msgid "siren"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:591
+msgid "road"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:592
+msgid "engine"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:593
+msgid "oil pressure"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:594
+msgid "coolant temperature"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:595
+msgid "car battery"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:596
+msgid "gas"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:597
+msgid "gallon"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:598
+msgid "transmission"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:599
+msgid "car"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:600
+msgid "car wash"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:601
+msgid "car wash2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:602
+msgid "bus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:603
+msgid "bus2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:604
+msgid "car2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:605
+msgid "parking"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:606
+msgid "car lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:607
+msgid "taxi"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:608
+msgid "car siren"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:609
+msgid "car wash3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:610
+msgid "car wash4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:611
+msgid "ambulance"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:612
+msgid "truck"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:613
+msgid "trailer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:614
+msgid "scale truck"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:615
+msgid "train"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:616
+msgid "ship"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:617
+msgid "ship2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:618
+msgid "anchor"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:619
+msgid "boat"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:620
+msgid "bicycle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:621
+msgid "bicycle2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:622
+msgid "dumbbell"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:623
+msgid "bench press"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:624
+msgid "swim"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:625
+msgid "football"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:626
+msgid "baseball bat"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:627
+msgid "baseball"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:628
+msgid "tennis"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:629
+msgid "tennis2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:630
+msgid "ping pong"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:631
+msgid "hockey"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:632
+msgid "8ball"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:633
+msgid "bowling"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:634
+msgid "bowling pins"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:635
+msgid "golf"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:636
+msgid "golf2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:637
+msgid "archery"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:638
+msgid "slingshot"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:639
+msgid "soccer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:640
+msgid "basketball"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:641
+msgid "cube"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:642
+msgid "3d rotate"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:643
+msgid "puzzle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:644
+msgid "glasses"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:645
+msgid "glasses2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:646
+msgid "accessibility"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:647
+msgid "wheelchair"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:648
+msgid "wall"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:649
+msgid "fence"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:650
+msgid "wall2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:651
+msgid "icons"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:652
+msgid "resize handle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:653
+msgid "icons2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:654
+msgid "select"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:655
+msgid "select2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:656
+msgid "site map"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:657
+msgid "earth"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:658
+msgid "earth lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:659
+msgid "network"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:660
+msgid "network lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:661
+msgid "planet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:662
+msgid "happy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:663
+msgid "smile"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:664
+msgid "grin"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:665
+msgid "tongue"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:666
+msgid "sad"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:667
+msgid "wink"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:668
+msgid "dream"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:669
+msgid "shocked"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:670
+msgid "shocked2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:671
+msgid "tongue2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:672
+msgid "neutral"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:673
+msgid "happy grin"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:674
+msgid "cool"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:675
+msgid "mad"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:676
+msgid "grin evil"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:677
+msgid "evil"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:678
+msgid "wow"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:679
+msgid "annoyed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:680
+msgid "wondering"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:681
+msgid "confused"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:682
+msgid "zipped"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:683
+msgid "grumpy"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:684
+msgid "mustache"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:685
+msgid "tombstone hipster"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:686
+msgid "tombstone"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:687
+msgid "ghost"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:688
+msgid "ghost hipster"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:689
+msgid "halloween"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:690
+msgid "christmas"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:691
+msgid "easter egg"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:692
+msgid "mustache2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:693
+msgid "mustache glasses"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:694
+msgid "pipe"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:695
+msgid "alarm"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:696
+msgid "alarm add"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:697
+msgid "alarm snooze"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:698
+msgid "alarm ringing"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:699
+msgid "bullhorn"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:700
+msgid "hearing"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:701
+msgid "volume high"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:702
+msgid "volume medium"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:703
+msgid "volume low"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:704
+msgid "volume"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:705
+msgid "mute"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:706
+msgid "lan"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:707
+msgid "lan2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:708
+msgid "wifi"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:709
+msgid "wifi lock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:710
+msgid "wifi blocked"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:711
+msgid "wifi mid"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:712
+msgid "wifi low"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:713
+msgid "wifi low2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:714
+msgid "wifi alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:715
+msgid "wifi alert mid"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:716
+msgid "wifi alert low"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:717
+msgid "wifi alert low2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:718
+msgid "stream"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:719
+msgid "stream check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:720
+msgid "stream error"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:721
+msgid "stream alert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:722
+msgid "communication"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:723
+msgid "communication crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:724
+msgid "broadcast"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:725
+msgid "antenna"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:726
+msgid "satellite"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:727
+msgid "satellite2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:728
+msgid "mic"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:729
+msgid "mic mute"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:730
+msgid "mic2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:731
+msgid "spotlights"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:732
+msgid "hourglass"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:733
+msgid "loading"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:734
+msgid "loading2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:735
+msgid "loading3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:736
+msgid "refresh"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:737
+msgid "refresh2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:738
+msgid "undo"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:739
+msgid "redo"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:740
+msgid "jump2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:741
+msgid "undo2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:742
+msgid "redo2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:743
+msgid "sync"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:744
+msgid "repeat one2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:745
+msgid "sync crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:746
+msgid "sync2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:747
+msgid "repeat one3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:748
+msgid "sync crossed2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:749
+msgid "return"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:750
+msgid "return2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:751
+msgid "refund"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:752
+msgid "history"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:753
+msgid "history2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:754
+msgid "self timer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:755
+msgid "clock"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:756
+msgid "clock2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:757
+msgid "clock3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:758
+msgid "watch"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:759
+msgid "alarm2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:760
+msgid "alarm add2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:761
+msgid "alarm remove"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:762
+msgid "alarm check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:763
+msgid "alarm error"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:764
+msgid "timer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:765
+msgid "timer crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:766
+msgid "timer2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:767
+msgid "timer crossed2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:768
+msgid "download"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:769
+msgid "upload"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:770
+msgid "download2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:771
+msgid "upload2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:772
+msgid "enter up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:773
+msgid "enter down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:774
+msgid "enter left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:775
+msgid "enter right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:776
+msgid "exit up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:777
+msgid "exit down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:778
+msgid "exit left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:779
+msgid "exit right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:780
+msgid "enter up2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:781
+msgid "enter down2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:782
+msgid "enter vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:783
+msgid "enter left2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:784
+msgid "enter right2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:785
+msgid "enter horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:786
+msgid "exit up2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:787
+msgid "exit down2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:788
+msgid "exit left2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:789
+msgid "exit right2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:790
+msgid "cli"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:791
+msgid "bug"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:792
+msgid "code"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:793
+msgid "file code"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:794
+msgid "file image"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:795
+msgid "file zip"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:796
+msgid "file audio"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:797
+msgid "file video"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:798
+msgid "file preview"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:799
+msgid "file charts"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:800
+msgid "file stats"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:801
+msgid "file spreadsheet"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:802
+msgid "link"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:803
+msgid "unlink"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:804
+msgid "link2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:805
+msgid "unlink2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:806
+msgid "thumbs up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:807
+msgid "thumbs down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:808
+msgid "thumbs up2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:809
+msgid "thumbs down2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:810
+msgid "thumbs up3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:811
+msgid "thumbs down3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:812
+msgid "share"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:813
+msgid "share2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:814
+msgid "share3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:815
+msgid "magnifier"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:816
+msgid "file search"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:817
+msgid "find replace"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:818
+msgid "zoom in"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:819
+msgid "zoom out"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:820
+msgid "loupe"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:821
+msgid "loupe zoom in"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:822
+msgid "loupe zoom out"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:823
+msgid "cross"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:824
+msgid "menu"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:825
+msgid "list"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:826
+msgid "list2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:827
+msgid "list3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:828
+msgid "menu2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:829
+msgid "list4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:830
+msgid "menu3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:831
+msgid "exclamation"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:832
+msgid "question"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:833
+msgid "check"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:834
+msgid "cross2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:835
+msgid "plus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:836
+msgid "minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:837
+msgid "percent"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:838
+msgid "chevron up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:839
+msgid "chevron down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:840
+msgid "chevron left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:841
+msgid "chevron right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:842
+msgid "chevrons expand vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:843
+msgid "chevrons expand horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:844
+msgid "chevrons contract vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:845
+msgid "chevrons contract horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:846
+msgid "arrow up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:847
+msgid "arrow down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:848
+msgid "arrow left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:849
+msgid "arrow right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:850
+msgid "arrow up right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:851
+msgid "arrows merge"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:852
+msgid "arrows split"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:853
+msgid "arrow divert"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:854
+msgid "arrow return"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:855
+msgid "expand"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:856
+msgid "contract"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:857
+msgid "expand2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:858
+msgid "contract2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:859
+msgid "move"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:860
+msgid "tab"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:861
+msgid "arrow wave"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:862
+msgid "expand3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:863
+msgid "expand4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:864
+msgid "contract3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:865
+msgid "notification"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:866
+msgid "warning"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:867
+msgid "notification circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:868
+msgid "question circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:869
+msgid "menu circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:870
+msgid "checkmark circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:871
+msgid "cross circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:872
+msgid "plus circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:873
+msgid "circle minus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:874
+msgid "percent circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:875
+msgid "arrow up circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:876
+msgid "arrow down circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:877
+msgid "arrow left circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:878
+msgid "arrow right circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:879
+msgid "chevron up circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:880
+msgid "chevron down circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:881
+msgid "chevron left circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:882
+msgid "chevron right circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:883
+msgid "backward circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:884
+msgid "first circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:885
+msgid "previous circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:886
+msgid "stop circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:887
+msgid "play circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:888
+msgid "pause circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:889
+msgid "next circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:890
+msgid "last circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:891
+msgid "forward circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:892
+msgid "eject circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:893
+msgid "crop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:894
+msgid "frame expand"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:895
+msgid "frame contract"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:896
+msgid "focus"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:897
+msgid "transform"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:898
+msgid "grid"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:899
+msgid "grid crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:900
+msgid "layers"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:901
+msgid "layers crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:902
+msgid "toggle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:903
+msgid "rulers"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:904
+msgid "ruler"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:905
+msgid "funnel"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:906
+msgid "flip horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:907
+msgid "flip vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:908
+msgid "flip horizontal2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:909
+msgid "flip vertical2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:910
+msgid "angle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:911
+msgid "angle2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:912
+msgid "subtract"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:913
+msgid "combine"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:914
+msgid "intersect"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:915
+msgid "exclude"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:916
+msgid "align center vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:917
+msgid "align right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:918
+msgid "align bottom"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:919
+msgid "align left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:920
+msgid "align center horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:921
+msgid "align top"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:922
+msgid "square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:923
+msgid "plus square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:924
+msgid "minus square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:925
+msgid "percent square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:926
+msgid "arrow up square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:927
+msgid "arrow down square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:928
+msgid "arrow left square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:929
+msgid "arrow right square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:930
+msgid "chevron up square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:931
+msgid "chevron down square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:932
+msgid "chevron left square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:933
+msgid "chevron right square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:934
+msgid "check square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:935
+msgid "cross square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:936
+msgid "menu square"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:937
+msgid "prohibited"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:938
+msgid "circle"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:939
+msgid "radio button"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:940
+msgid "ligature"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:941
+msgid "text format"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:942
+msgid "text format remove"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:943
+msgid "text size"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:944
+msgid "bold"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:945
+msgid "italic"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:946
+msgid "underline"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:947
+msgid "strikethrough"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:948
+msgid "highlight"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:949
+msgid "text align left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:950
+msgid "text align center"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:951
+msgid "text align right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:952
+msgid "text align justify"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:953
+msgid "line spacing"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:954
+msgid "indent increase"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:955
+msgid "indent decrease"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:956
+msgid "text wrap"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:957
+msgid "pilcrow"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:958
+msgid "direction ltr"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:959
+msgid "direction rtl"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:960
+msgid "page break"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:961
+msgid "page break2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:962
+msgid "sort alpha asc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:963
+msgid "sort alpha desc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:964
+msgid "sort numeric asc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:965
+msgid "sort numeric desc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:966
+msgid "sort amount asc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:967
+msgid "sort amount desc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:968
+msgid "sort time asc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:969
+msgid "sort time desc"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:970
+msgid "sigma"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:971
+msgid "pencil line"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:972
+msgid "hand"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:973
+msgid "pointer up"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:974
+msgid "pointer right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:975
+msgid "pointer down"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:976
+msgid "pointer left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:977
+msgid "finger tap"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:978
+msgid "fingers tap"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:979
+msgid "reminder"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:980
+msgid "fingers crossed"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:981
+msgid "fingers victory"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:982
+msgid "gesture zoom"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:983
+msgid "gesture pinch"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:984
+msgid "fingers scroll horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:985
+msgid "fingers scroll vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:986
+msgid "fingers scroll left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:987
+msgid "fingers scroll right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:988
+msgid "hand2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:989
+msgid "pointer up2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:990
+msgid "pointer right2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:991
+msgid "pointer down2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:992
+msgid "pointer left2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:993
+msgid "finger tap2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:994
+msgid "fingers tap2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:995
+msgid "reminder2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:996
+msgid "gesture zoom2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:997
+msgid "gesture pinch2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:998
+msgid "fingers scroll horizontal2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:999
+msgid "fingers scroll vertical2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1000
+msgid "fingers scroll left2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1001
+msgid "fingers scroll right2"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1002
+msgid "fingers scroll vertical3"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1003
+msgid "border style"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1004
+msgid "border all"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1005
+msgid "border outer"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1006
+msgid "border inner"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1007
+msgid "border top"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1008
+msgid "border horizontal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1009
+msgid "border bottom"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1010
+msgid "border left"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1011
+msgid "border vertical"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1012
+msgid "border right"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1013
+msgid "border none"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1014
+msgid "ellipsis"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1015
+msgid "uni21"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1016
+msgid "uni22"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1017
+msgid "uni23"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1018
+msgid "uni24"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1019
+msgid "uni25"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1020
+msgid "uni26"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1021
+msgid "uni27"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1022
+msgid "uni28"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1023
+msgid "uni29"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1024
+msgid "uni2a"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1025
+msgid "uni2b"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1026
+msgid "uni2c"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1027
+msgid "uni2d"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1028
+msgid "uni2e"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1029
+msgid "uni2f"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1030
+msgid "uni30"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1031
+msgid "uni31"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1032
+msgid "uni32"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1033
+msgid "uni33"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1034
+msgid "uni34"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1035
+msgid "uni35"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1036
+msgid "uni36<div><br></div>"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1037
+msgid "uni37"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1038
+msgid "uni38"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1039
+msgid "uni39"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1040
+msgid "uni3a"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1041
+msgid "uni3b"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1042
+msgid "uni3c"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1043
+msgid "uni3d"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1044
+msgid "uni3e"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1045
+msgid "uni3f"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1046
+msgid "uni40"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1047
+msgid "uni41"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1048
+msgid "uni42"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1049
+msgid "uni43"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1050
+msgid "uni44"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1051
+msgid "uni45"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1052
+msgid "uni46"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1053
+msgid "uni47"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1054
+msgid "uni48"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1055
+msgid "uni49"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1056
+msgid "uni4a"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1057
+msgid "uni4b"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1058
+msgid "uni4c"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1059
+msgid "uni4d"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1060
+msgid "uni4e"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1061
+msgid "uni4f"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1062
+msgid "uni50"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1063
+msgid "uni51"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1064
+msgid "uni52"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1065
+msgid "uni53"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1066
+msgid "uni54"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1067
+msgid "uni55"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1068
+msgid "uni56"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1069
+msgid "uni57"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1070
+msgid "uni58"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1071
+msgid "uni59"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1072
+msgid "uni5a"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1073
+msgid "uni5b"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1074
+msgid "uni5c"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1075
+msgid "uni5d"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1076
+msgid "uni5e"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1077
+msgid "uni5f"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1078
+msgid "uni60"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1079
+msgid "uni61"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1080
+msgid "uni62"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1081
+msgid "uni63"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1082
+msgid "uni64"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1083
+msgid "uni65"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1084
+msgid "uni66"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1085
+msgid "uni67"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1086
+msgid "uni68"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1087
+msgid "uni69"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1088
+msgid "uni6a"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1089
+msgid "uni6b"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1090
+msgid "uni6c"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1091
+msgid "uni6d"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1092
+msgid "uni6e"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1093
+msgid "uni6f"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1094
+msgid "uni70"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1095
+msgid "uni71"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1096
+msgid "uni72"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1097
+msgid "uni73"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1098
+msgid "uni74"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1099
+msgid "uni75"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1100
+msgid "uni76"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1101
+msgid "uni77"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1102
+msgid "uni78"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1103
+msgid "uni79"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1104
+msgid "uni7a"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1105
+msgid "uni7b"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1106
+msgid "uni7c"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1107
+msgid "uni7d"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1108
+msgid "uni7e"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1109
+msgid "copyright"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1124
+msgid "jonny welcome"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: plugins/jonny_plugin/VC_custum-data.php:1129
+#: plugins/jonny_plugin/VC_custum-data.php:1199
+#: plugins/jonny_plugin/VC_custum-data.php:1301
+#: plugins/jonny_plugin/VC_custum-data.php:1427
+#: plugins/jonny_plugin/VC_custum-data.php:1567
+#: plugins/jonny_plugin/VC_custum-data.php:1704
+#: plugins/jonny_plugin/VC_custum-data.php:1753
+#: plugins/jonny_plugin/VC_custum-data.php:1861
+#: plugins/jonny_plugin/VC_custum-data.php:1929
+msgid "jonny"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1133
+#: plugins/jonny_plugin/VC_custum-data.php:1203
+#: plugins/jonny_plugin/VC_custum-data.php:1308
+#: plugins/jonny_plugin/VC_custum-data.php:1434
+#: plugins/jonny_plugin/VC_custum-data.php:1574
+#: plugins/jonny_plugin/VC_custum-data.php:1711
+#: plugins/jonny_plugin/VC_custum-data.php:1760
+#: plugins/jonny_plugin/VC_custum-data.php:1869
+msgid "Section ID"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1135
+#: plugins/jonny_plugin/VC_custum-data.php:1205
+#: plugins/jonny_plugin/VC_custum-data.php:1310
+#: plugins/jonny_plugin/VC_custum-data.php:1436
+#: plugins/jonny_plugin/VC_custum-data.php:1576
+#: plugins/jonny_plugin/VC_custum-data.php:1713
+#: plugins/jonny_plugin/VC_custum-data.php:1762
+#: plugins/jonny_plugin/VC_custum-data.php:1871
+msgid "Add Your Section ID"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1139
+#: plugins/jonny_plugin/VC_custum-data.php:1582
+#: plugins/jonny_plugin/VC_custum-data.php:1943
+msgid "Background Image"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1142
+#: plugins/jonny_plugin/VC_custum-data.php:1317
+#: plugins/jonny_plugin/VC_custum-data.php:1729
+#: plugins/jonny_plugin/VC_custum-data.php:1769
+msgid "Select images from media library."
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1148
+#: plugins/jonny_plugin/VC_custum-data.php:1211
+#: plugins/jonny_plugin/VC_custum-data.php:1324
+#: plugins/jonny_plugin/VC_custum-data.php:1443
+#: plugins/jonny_plugin/VC_custum-data.php:1593
+#: plugins/jonny_plugin/VC_custum-data.php:1718
+#: plugins/jonny_plugin/VC_custum-data.php:1776
+#: plugins/jonny_plugin/VC_custum-data.php:1877
+msgid "Vertical Title"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1150
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:16
+msgid "Introduce"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1151
+#: plugins/jonny_plugin/VC_custum-data.php:1160
+#: plugins/jonny_plugin/VC_custum-data.php:1167
+#: plugins/jonny_plugin/VC_custum-data.php:1176
+#: plugins/jonny_plugin/VC_custum-data.php:1214
+#: plugins/jonny_plugin/VC_custum-data.php:1223
+#: plugins/jonny_plugin/VC_custum-data.php:1231
+#: plugins/jonny_plugin/VC_custum-data.php:1240
+#: plugins/jonny_plugin/VC_custum-data.php:1248
+#: plugins/jonny_plugin/VC_custum-data.php:1256
+#: plugins/jonny_plugin/VC_custum-data.php:1327
+#: plugins/jonny_plugin/VC_custum-data.php:1336
+#: plugins/jonny_plugin/VC_custum-data.php:1354
+#: plugins/jonny_plugin/VC_custum-data.php:1446
+#: plugins/jonny_plugin/VC_custum-data.php:1455
+#: plugins/jonny_plugin/VC_custum-data.php:1463
+#: plugins/jonny_plugin/VC_custum-data.php:1472
+#: plugins/jonny_plugin/VC_custum-data.php:1481
+#: plugins/jonny_plugin/VC_custum-data.php:1508
+#: plugins/jonny_plugin/VC_custum-data.php:1596
+#: plugins/jonny_plugin/VC_custum-data.php:1613
+#: plugins/jonny_plugin/VC_custum-data.php:1633
+#: plugins/jonny_plugin/VC_custum-data.php:1646
+#: plugins/jonny_plugin/VC_custum-data.php:1656
+#: plugins/jonny_plugin/VC_custum-data.php:1667
+#: plugins/jonny_plugin/VC_custum-data.php:1721
+#: plugins/jonny_plugin/VC_custum-data.php:1779
+#: plugins/jonny_plugin/VC_custum-data.php:1788
+#: plugins/jonny_plugin/VC_custum-data.php:1805
+#: plugins/jonny_plugin/VC_custum-data.php:1817
+#: plugins/jonny_plugin/VC_custum-data.php:1827
+#: plugins/jonny_plugin/VC_custum-data.php:1880
+#: plugins/jonny_plugin/VC_custum-data.php:1891
+#: plugins/jonny_plugin/VC_custum-data.php:1954
+#: plugins/jonny_plugin/VC_custum-data.php:1963
+#: plugins/jonny_plugin/VC_custum-data.php:1982
+#: plugins/jonny_plugin/VC_custum-data.php:1991
+#: plugins/jonny_plugin/VC_custum-data.php:2006
+msgid "insert text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1157
+#: plugins/jonny_plugin/VC_custum-data.php:1220
+#: plugins/jonny_plugin/VC_custum-data.php:1333
+#: plugins/jonny_plugin/VC_custum-data.php:1351
+#: plugins/jonny_plugin/VC_custum-data.php:1452
+#: plugins/jonny_plugin/VC_custum-data.php:1505
+#: plugins/jonny_plugin/VC_custum-data.php:1888
+msgid "Title"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1159
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:15
+msgid "Welcome To"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1164
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:18
+msgid "Hello"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1165
+#: plugins/jonny_plugin/VC_custum-data.php:1238
+#: plugins/jonny_plugin/VC_custum-data.php:1246
+#: plugins/jonny_plugin/VC_custum-data.php:1469
+msgid "Text primary"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1173
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:19
+msgid "my name is jonny."
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1174
+#: plugins/jonny_plugin/VC_custum-data.php:1229
+msgid "Text normal"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1183
+#: plugins/jonny_plugin/VC_custum-data.php:1284
+#: plugins/jonny_plugin/VC_custum-data.php:1409
+#: plugins/jonny_plugin/VC_custum-data.php:1549
+#: plugins/jonny_plugin/VC_custum-data.php:1686
+#: plugins/jonny_plugin/VC_custum-data.php:1735
+#: plugins/jonny_plugin/VC_custum-data.php:1844
+#: plugins/jonny_plugin/VC_custum-data.php:1908
+#: plugins/jonny_plugin/VC_custum-data.php:2050
+msgid "Css"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1185
+#: plugins/jonny_plugin/VC_custum-data.php:1286
+#: plugins/jonny_plugin/VC_custum-data.php:1411
+#: plugins/jonny_plugin/VC_custum-data.php:1551
+#: plugins/jonny_plugin/VC_custum-data.php:1688
+#: plugins/jonny_plugin/VC_custum-data.php:1737
+#: plugins/jonny_plugin/VC_custum-data.php:1846
+#: plugins/jonny_plugin/VC_custum-data.php:1910
+#: plugins/jonny_plugin/VC_custum-data.php:2052
+msgid "Design options"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1194
+msgid "jonny about me"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1213
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:92
+msgid "what I do"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1222
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:93
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:98
+msgid "About me"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1228
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:94
+msgid "My mission is"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1237
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:95
+msgid "design &amp; develop"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1245
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:96
+msgid "the best Websites around"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1253
+msgid ""
+" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dicta "
+"sit pariatur odio unde deleniti eveniet magni cum, ad iure, vel nisi minima "
+"vero voluptates ut ipsum amet iusto hic."
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1254
+msgid "content"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1262
+msgid "Chart  value"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1264
+msgid "Charts  items"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1268
+msgid "Chart title"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1270
+msgid "Development"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1271
+msgid "insert text  ( example DESIGN )"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1275
+msgid "chart number"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1277
+msgid "80"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1278
+msgid "insert number ( example 80 )"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1298
+msgid "jonny my works"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1315
+msgid " Background Images"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1326
+msgid "my works"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1335
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:215
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:713
+msgid "Featured works"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1342
+msgid "Project item"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1344
+#: plugins/jonny_plugin/VC_custum-data.php:1489
+#: plugins/jonny_plugin/VC_custum-data.php:1605
+#: plugins/jonny_plugin/VC_custum-data.php:1624
+#: plugins/jonny_plugin/VC_custum-data.php:1796
+#: plugins/jonny_plugin/VC_custum-data.php:1971
+#: plugins/jonny_plugin/VC_custum-data.php:2013
+msgid "Item values"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1353
+msgid "UCAM Minimalist Apartment"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1361
+#: plugins/jonny_plugin/VC_custum-data.php:1495
+msgid "Single project link"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1363
+#: plugins/jonny_plugin/VC_custum-data.php:1373
+#: plugins/jonny_plugin/VC_custum-data.php:1390
+#: plugins/jonny_plugin/VC_custum-data.php:1497
+#: plugins/jonny_plugin/VC_custum-data.php:2022
+msgid "#"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1364
+#: plugins/jonny_plugin/VC_custum-data.php:1498
+#: plugins/jonny_plugin/VC_custum-data.php:2023
+msgid "insert url"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1371
+msgid "Category"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1374
+msgid "insert link"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1388
+msgid "Link to all projects "
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1396
+msgid "The icons "
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1399
+#: plugins/jonny_plugin/VC_custum-data.php:2032
+msgid "insert icon"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1424
+msgid "jonny my services"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1445
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:364
+msgid "Services"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1454
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:365
+msgid "My services"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1460
+msgid "Text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1462
+msgid "I like"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1471
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:368
+msgid "to make"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1478
+msgid "Text "
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1480
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:369
+msgid "things easy and fun"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1487
+msgid "Service list "
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1507
+msgid "01.  Development"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1520
+msgid "Image"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1522
+#: plugins/jonny_plugin/VC_custum-data.php:1531
+#: plugins/jonny_plugin/VC_custum-data.php:1540
+msgid "Right block"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1523
+#: plugins/jonny_plugin/VC_custum-data.php:1584
+#: plugins/jonny_plugin/VC_custum-data.php:1945
+msgid "Select image from media library."
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1529
+msgid "Number"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1532
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:366
+msgid "4"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1533
+msgid "insert number"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1538
+#: plugins/jonny_plugin/VC_custum-data.php:1785
+msgid "Content"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1541
+msgid "insert content"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1564
+msgid "jonny resume"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1595
+#: plugins/jonny_plugin/VC_custum-data.php:1612
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:495
+msgid "Resume"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1603
+msgid "Resume item"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1610
+msgid "Column Title"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1622
+msgid "Resume list"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1630
+msgid "Resume type"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1632
+msgid "SPECIALIZATION COURSE"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1643
+msgid "Resume study"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1645
+msgid "University of studies, Poland, Cracow"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1653
+msgid "Resume date "
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1655
+msgid "Jan 2004 - Dec 2006"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1664
+msgid "Resume text "
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1666
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis animi "
+"assumenda sint recusandae! Dolor placeat debitis animi illum quo repellendus "
+"pariatur, enim doloribus,"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1701
+msgid "jonny partners"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1720
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:624
+msgid "Partners"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1727
+msgid " Partners logo"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1750
+msgid "jonny testimonials"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1767
+msgid " Background Image"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1778
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:712
+msgid "testimonials"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1787
+msgid "creative & dedicated is things that Jonny studio brings for your house"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1794
+#: plugins/jonny_plugin/VC_custum-data.php:1936
+msgid "Carousel item"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1803
+msgid "Testimonial text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1814
+msgid "Author name"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1816
+msgid "David & Elisa"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1824
+msgid "Project name"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1826
+msgid "Apartment view lake at Brooklyn"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1858
+msgid "jonny contact form"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1879
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:838
+msgid "contact"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1890
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:839
+msgid "Get In Touch"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1898
+msgid "insert contact form shortcode"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1900
+msgid "insert text or shortcode or html tags"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1901
+msgid "Contact form"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1926
+msgid "jonny project detail"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1951
+msgid "Heading"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1961
+msgid "Desciption"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1969
+msgid "Features item"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1979
+msgid "Left text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1981
+msgid "Clients:"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1988
+msgid "Right text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:1990
+msgid "Ethan Hunt"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:2003
+msgid "Share  text"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:2011
+msgid "Social"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:2020
+msgid "Social url"
+msgstr ""
+
+#: plugins/jonny_plugin/VC_custum-data.php:2029
+msgid "The icons 1 "
+msgstr ""
+
+#: plugins/jonny_plugin/import_demo.php:5
+msgid "Import demo data"
+msgstr ""
+
+#: plugins/jonny_plugin/import_demo.php:101
+msgid "Import was successful. ReActivate all plugins!"
+msgstr ""
+
+#: plugins/jonny_plugin/import_demo.php:116
+msgid "Press the button for import"
+msgstr ""
+
+#: plugins/jonny_plugin/import_demo.php:126
+msgid "All exist data will be deleted!"
+msgstr ""
+
+#: plugins/jonny_plugin/import_demo.php:136
+msgid ""
+"Not Import images ? for weak hosting  (if demo import not works check this "
+"checkbox after import dowload images here for  \n"
+" <a href=\"http://paul-themes.com/wp/jonny/jonny-demo/wp-content/uploads.zip"
+"\">dark version </a> \n"
+"\n"
+"                           unzip and upload to folder wp-content\\uploads  \n"
+"                            and do not forgot set permission to this folder "
+"and all files 755). <br>\n"
+"                            Also if after demo import you have <b>error to "
+"many redirects</b>, check that the URLs are correct and the same in Settings "
+"> General  \" WordPress Address (URL)\" \"Site Address (URL)\"\n"
+" \n"
+"                            "
+msgstr ""
+
+#: plugins/jonny_plugin/import_demo.php:146
+msgid "Import"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:49
+msgid "Edit"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:50
+msgid "Add"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:51
+msgid "View"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:53
+msgid "Event"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:65
+msgid "Projects"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:66
+msgid "Item"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:82 plugins/jonny_plugin/index.php:138
+#: plugins/jonny_plugin/index.php:158
+msgid "Close"
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:98
+msgid "Name "
+msgstr ""
+
+#: plugins/jonny_plugin/index.php:101
+msgid "Message"
+msgstr ""
+
+#: plugins/jonny_plugin/mailchamp.php:12
+msgid "You have incorrect API key  "
+msgstr ""
+
+#: plugins/jonny_plugin/mailchamp.php:18
+msgid "You have incorrect dc "
+msgstr ""
+
+#: plugins/jonny_plugin/mailchamp.php:24
+msgid "You have incorrect id list "
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:15
+msgid "jonny Onepage menu"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:165
+msgid "Menu item name"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:178
+msgid "Left"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:179
+msgid "Right"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:191 plugins/jonny_plugin/metabox.php:235
+msgid "+ Add More item"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:193
+msgid "Format: Any text"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:217
+msgid "Menu item Url"
+msgstr ""
+
+#: plugins/jonny_plugin/metabox.php:237
+msgid "Format: #sectionname or http://yoururl.com"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:43
+msgid "General Config"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:47
+msgid "Custom CSS & JS"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:51
+msgid "Multilanguage"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:55
+msgid "Image mask"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:59
+#: plugins/jonny_plugin/ot_demo_function.php:287
+msgid "Google Fonts"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:63
+#: plugins/jonny_plugin/ot_demo_function.php:305
+msgid "Typography"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:67
+msgid "Navigation / header"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:72
+msgid "Theme Sidebars Color Options"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:78
+msgid "Frontage Color Options"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:83
+msgid "blog/Page Options"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:87
+msgid "blog/Page Header Color Options"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:93
+msgid "404 Page Header Options"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:97
+msgid "Search Page Header Options"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:107
+msgid "additional css"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:108
+msgid "You can add additional css "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:120
+msgid "additional javascript"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:121
+msgid "You can add additional javascript "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:146
+msgid "Multilanguage in side menu "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:147
+msgid "You can add multilanguage html code or shortcode in header"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:159
+msgid "Multilanguage in footer  "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:160
+msgid "You can add multilanguage html code or shortcode in footer"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:173
+msgid "Mask color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:174
+#: plugins/jonny_plugin/ot_demo_function.php:431
+#: plugins/jonny_plugin/ot_demo_function.php:439
+#: plugins/jonny_plugin/ot_demo_function.php:448
+msgid "Please select color with opacity"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:187
+msgid "Frontpage paragraph color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:188
+#: plugins/jonny_plugin/ot_demo_function.php:198
+#: plugins/jonny_plugin/ot_demo_function.php:206
+#: plugins/jonny_plugin/ot_demo_function.php:214
+#: plugins/jonny_plugin/ot_demo_function.php:456
+#: plugins/jonny_plugin/ot_demo_function.php:465
+#: plugins/jonny_plugin/ot_demo_function.php:474
+#: plugins/jonny_plugin/ot_demo_function.php:483
+#: plugins/jonny_plugin/ot_demo_function.php:493
+#: plugins/jonny_plugin/ot_demo_function.php:501
+#: plugins/jonny_plugin/ot_demo_function.php:509
+#: plugins/jonny_plugin/ot_demo_function.php:523
+#: plugins/jonny_plugin/ot_demo_function.php:572
+#: plugins/jonny_plugin/ot_demo_function.php:582
+#: plugins/jonny_plugin/ot_demo_function.php:597
+#: plugins/jonny_plugin/ot_demo_function.php:639
+#: plugins/jonny_plugin/ot_demo_function.php:647
+msgid "Please select color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:197
+msgid "Slider dotes active"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:205
+msgid "Slider dotes "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:213
+msgid "Hamburg menu color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:226
+#: plugins/jonny_plugin/ot_demo_function.php:227
+msgid "Logo width"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:240
+#: plugins/jonny_plugin/ot_demo_function.php:241
+msgid "Logo height"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:254
+#: plugins/jonny_plugin/ot_demo_function.php:255
+msgid "Header Navbar height"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:268
+msgid "Logo  text font size"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:269
+msgid "Logo font size"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:306
+#: plugins/jonny_plugin/ot_demo_function.php:321
+#: plugins/jonny_plugin/ot_demo_function.php:336
+#: plugins/jonny_plugin/ot_demo_function.php:351
+#: plugins/jonny_plugin/ot_demo_function.php:366
+#: plugins/jonny_plugin/ot_demo_function.php:381
+#: plugins/jonny_plugin/ot_demo_function.php:396
+#: plugins/jonny_plugin/ot_demo_function.php:412
+msgid ""
+"The Typography option type is for adding typography styles to your site."
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:320
+msgid "Typography h1"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:335
+msgid "Typography h2"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:350
+msgid "Typography h3"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:365
+msgid "Typography h4"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:380
+msgid "Typography h5"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:395
+msgid "Typography h6"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:411
+msgid " Typography  quotation - blockquote "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:430
+msgid "Header background color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:438
+msgid "Header background affix color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:447
+msgid "Theme navigation background color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:455
+msgid "Theme navigation menu item color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:464
+msgid "Theme navigation menu item hover color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:473
+msgid "Theme navigation menu  social icons color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:482
+msgid "Theme navigation menu  copyright text color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:492
+msgid "Theme Sidebar widget title color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:500
+msgid "Theme Sidebar link title color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:508
+msgid "Theme Sidebar link title hover color"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:522
+msgid "blog preview items background mask color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:532
+#: plugins/jonny_plugin/ot_demo_function.php:605
+msgid "Header padding top"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:533
+#: plugins/jonny_plugin/ot_demo_function.php:547
+#: plugins/jonny_plugin/ot_demo_function.php:606
+#: plugins/jonny_plugin/ot_demo_function.php:620
+msgid "You can use this option for heading text vertical align"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:546
+#: plugins/jonny_plugin/ot_demo_function.php:619
+msgid "Header padding bottom"
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:571
+msgid "404 Page Title color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:581
+msgid "404 Page paragraph/slogan color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:596
+msgid "Search Pages Heading color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:638
+msgid "blog Pages Heading color "
+msgstr ""
+
+#: plugins/jonny_plugin/ot_demo_function.php:646
+msgid "blog Pages  post / page title color "
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:17
+msgid "Welcome To Jonny Design Studio"
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:99
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dicta "
+"sit pariatur odio unde deleniti eveniet magni cum, ad iure, vel nisi minima "
+"vero voluptates ut ipsum amet iusto hic."
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:163
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:172
+msgid "%"
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:214
+msgid "MY WORKS"
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:370
+msgid "I like "
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:922
+msgid "hide information"
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:923
+msgid "show information"
+msgstr ""
+
+#: plugins/jonny_plugin/shortcodes/shortcodes.php:924
+msgid "The Luxury Residence In Forest"
+msgstr ""
+
+#: search.php:42 search.php:100 search.php:217
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: single-project.php:7 template-one-page.php:10
+msgid "jonny "
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://paul-themes.com/wp/jonny/jonny-demo//"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "jonny - Multipurpose WordPress theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VK"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://paul-themes.com/"
+msgstr ""

@@ -194,7 +194,7 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
                         </div>
                         <div class="leader-name-desc">
                             <div class="leader-name-bullet"></div>
-                            Operation Director
+                            Vice Chairman
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
                         </div>
                         <div class="leader-name-desc">
                             <div class="leader-name-bullet"></div>
-                            Operation Director
+                            Investment Director
                         </div>
                     </div>
                 </div>
