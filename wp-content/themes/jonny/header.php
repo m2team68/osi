@@ -121,7 +121,9 @@ if ( get_theme_mod( 'jonny_performans_preloader', true ) != false ) {
         <?php
             $logo = get_theme_mod( 'jonny_logo_small' );
         ?>
-        <img class="brand-img" alt="" src="<?php echo esc_url( $logo ); ?>">
+        <a href="<?php  echo  esc_url(get_home_url('/')); ?>">
+            <img class="brand-img" alt="" src="<?php echo esc_url( $logo ); ?>">
+        </a>
     </div>
     <div class="header-menu">
         <?php wp_nav_menu([
