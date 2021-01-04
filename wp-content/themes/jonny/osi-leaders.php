@@ -12,7 +12,7 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
             background-color: black;
             /*background-image: linear-gradient(0deg, rgb(0 0 0), rgb(16 28 41 / 62%));*/
             background-image: url("<?= $city ?>") !important;
-            background-size: cover;
+            background-size: cover !important;
             background-blend-mode: overlay;
         }
         div {
