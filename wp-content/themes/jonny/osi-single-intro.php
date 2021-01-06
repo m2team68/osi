@@ -22,15 +22,20 @@ if (isset($fullTitle[1])) {
             background-size: cover;
             background-blend-mode: overlay;
             background-attachment: fixed;
+            height: 100vh;
         }
         div {
             -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
             -moz-box-sizing: border-box;    /* Firefox, other Gecko */
             box-sizing: border-box;         /* Opera/IE 8+ */
         }
+        .section {
+            height: 100% !important;
+        }
         #osi-single {
             padding-top: 126px;
             position: relative;
+            height: 100vh;
         }
         .section-content {
             height: 100%;

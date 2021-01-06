@@ -19,6 +19,9 @@ $aboutUs4Bg = get_theme_file_uri('assets/images/about_us_4_bg.jpg');
             right: 50px;
             top: 300px;
         }
+        .section-overlay {
+            background: #00000026;
+        }
         .about-us-label .about {
         }
         .about-us-label .us {
@@ -205,6 +208,14 @@ $aboutUs4Bg = get_theme_file_uri('assets/images/about_us_4_bg.jpg');
                     ?>
                 </div>
             </div>
+            <a class="cta-btn" href="/osi-leaders">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+                Meet OSI Leaders
+            </a>
         </div>
     </div>
 

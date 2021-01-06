@@ -2,7 +2,7 @@
 <?php
 get_header();
 $pasBg = get_theme_file_uri('assets/images/pas_bg.jpg');
-$pasSectionBg = get_theme_file_uri('assets/images/pas-section-bg.jpg');
+$pasSectionBg = get_theme_file_uri('assets/images/pas_bg.jpg');
 $location = get_theme_file_uri('assets/images/location.png');
 $search = get_theme_file_uri('assets/images/search.png');
 $financing = get_theme_file_uri('assets/images/financing.png');
@@ -23,6 +23,15 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         }
         .section-overlay {
             background: #00000026;
+        }
+        .section-overlay-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: #d0d0d0cf;
+            box-shadow: 10px 0 20px 10px #d0d0d0cf;
         }
         .section-overlay.darker {
             background: #00000026;
@@ -153,6 +162,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_2" class="section pas_2 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -177,6 +187,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_3" class="section pas_3 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -201,6 +212,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_4" class="section pas_4 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -222,6 +234,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_5" class="section pas_5 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -243,6 +256,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_6" class="section pas_6 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -267,6 +281,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_7" class="section pas_7 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -291,6 +306,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         </div>
         <div data-section-name="pas_8" class="section pas_8 pas_extra" style="background-image: url(<?= $pasSectionBg ?>); background-size: cover">
             <div class="section-overlay"></div>
+            <div class="section-overlay-left"></div>
             <div class="section-content">
                 <div class="section-content-left">
                     <div class="pas-label label-border-key-visual flip">
@@ -312,6 +328,14 @@ $operation = get_theme_file_uri('assets/images/operation.png');
                     <img style="width: 80vh" src="<?= $operation ?>" alt="">
                 </div>
             </div>
+            <a class="cta-btn" href="/investment">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+                Investment Service
+            </a>
         </div>
     </div>
 
