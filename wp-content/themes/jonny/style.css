@@ -1056,4 +1056,5 @@ p {
 /** Form **/
 .wpcf7 input[type=text], .wpcf7 input[type=address], .wpcf7 input[type=url], .wpcf7 input[type=password], .wpcf7 input[type=email], .wpcf7 input[type=search], .wpcf7 input[type=tel], .wpcf7 select, .wpcf7 textarea {
     background-color: #fff;
+    color: #333;
 }
