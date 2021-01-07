@@ -101,7 +101,7 @@ if (isset($fullTitle[1])) {
             display: block;
         }
         .info-section {
-            padding: 26px;
+            width: 100%;
         }
         #osi-single .section {
             height: auto !important;
@@ -109,51 +109,6 @@ if (isset($fullTitle[1])) {
     </style>
 
     <div id="osi-single">
-        <div class="info-section">
-            <div class="text-center">
-                <h1>Where to find us</h1>
-            </div>
-            <div class="container-fluid text-center">
-                <div style="display: inline-flex; width: 80%">
-                    <div style="width: 40%; display: inline-block;" class="text-left">
-                        <div class="text-center">
-                            <h4>INFORMATION</h4>
-                        </div>
-                        <div>
-                            <div>
-                                <h5>Orient Success International Investment JSC.,</h5>
-                            </div>
-                            <div>
-                                3rd Floor, N01-T4 Building Diplomatic Corps Urban Area, <br>
-                                Xuân Tảo Ward, <br>
-                                Bắc Từ Liêm District, <br>
-                                Hà Nội
-                            </div>
-                            <div>
-                                <h5>Phone</h5>
-                            </div>
-                            <div>
-                                +(84-24) 3207 7272
-                            </div>
-                            <div>
-                                <h5>Mail</h5>
-                            </div>
-                            <div>
-                                info@osi.com.vn
-                            </div>
-                        </div>
-                    </div>
-                    <div style="width: 60%; display: inline-block">
-                        <div class="text-center">
-                            <h4>MAP</h4>
-                        </div>
-                        <div style="display: flex">
-                            <iframe style="flex: 1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7446.480371937826!2d105.7934246!3d21.0630671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0b737fdff3%3A0xdcab1384832f79e6!2zUGjDuiBN4bu5IENvbXBsZXggTjAxIFQ0!5e0!3m2!1sen!2s!4v1609910084143!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div data-section-name="single" class="section ol" style="background-color; black, background-size: cover">
             <div class="section-overlay"></div>
             <div class="section-content">
@@ -166,6 +121,53 @@ if (isset($fullTitle[1])) {
                             <?= $down ?>
                         </div>
                     <?php endif; ?>
+                </div>
+
+                <div class="info-section">
+                    <div class="container-fluid text-center">
+                        <div style="display: inline-flex; width: 80%">
+                            <div style="width: 40%; display: inline-block;" class="text-left">
+                                <div class="text-center">
+                                    <h4>INFORMATION</h4>
+                                </div>
+                                <div>
+                                    <div>
+                                        <h5>Orient Success International Investment JSC.,</h5>
+                                    </div>
+                                    <div>
+                                        3rd Floor, N01-T4 Building Diplomatic Corps Urban Area, <br>
+                                        Xuân Tảo Ward, <br>
+                                        Bắc Từ Liêm District, <br>
+                                        Hà Nội
+                                    </div>
+                                    <div>
+                                        <h5>Phone</h5>
+                                    </div>
+                                    <div>
+                                        +(84-24) 3207 7272
+                                    </div>
+                                    <div>
+                                        <h5>Mail</h5>
+                                    </div>
+                                    <div>
+                                        info@osi.com.vn
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="width: 60%; display: inline-block">
+                                <div class="text-center">
+                                    <h4>MAP</h4>
+                                </div>
+                                <div style="display: flex">
+                                    <iframe style="flex: 1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7446.480371937826!2d105.7934246!3d21.0630671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0b737fdff3%3A0xdcab1384832f79e6!2zUGjDuiBN4bu5IENvbXBsZXggTjAxIFQ0!5e0!3m2!1sen!2s!4v1609910084143!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center" style="width: 100%">
+                    <h1>Contact Us</h1>
                 </div>
                 <div class="page-desc about-us-desc">
                     <?php the_content(); ?>
