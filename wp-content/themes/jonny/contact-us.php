@@ -103,6 +103,9 @@ if (isset($fullTitle[1])) {
         .info-section {
             padding: 26px;
         }
+        #osi-single .section {
+            height: auto !important;
+        }
     </style>
 
     <div id="osi-single">
