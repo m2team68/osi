@@ -36,6 +36,8 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
         #osi-leaders {
             padding-top: 126px;
             position: relative;
+            height: 100vh;
+            overflow: hidden;
         }
         .section {
             position: unset;
@@ -82,8 +84,8 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
         }
 
         .leader-image img {
-            height: 100%;
-            width: auto;
+            height: auto;
+            width: 100%;
         }
         .osi-text-label span {
             line-height: 100%;
@@ -96,7 +98,7 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
             animation-delay: 0s !important;
         }
         .leader-name-desc {
-            font-size: 20px;
+            font-size: 14px;
             text-transform: capitalize;
             padding-left: 5px;
             transition: all 0.45s cubic-bezier(.165,.84,.44,1);
@@ -121,6 +123,9 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
             right: calc(100% - 6px);
             transition: all 0.45s cubic-bezier(.165,.84,.44,1);
         }
+        .leader-name .osi-text-label {
+            font-size: 3vw;
+        }
         .leader.active .leader-name-bullet:before {
             width: 90px;
         }
@@ -140,13 +145,14 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
             transform: translateX(-10%);
             transition: all 0.45s cubic-bezier(.165,.84,.44,1);
             opacity: 0;
+            font-size: 14px;
         }
         .leader.active .leader-desc {
             opacity: 1;
             position: absolute;
             top: 0;
             left: -90%;
-            width: 100%;
+            width: 90%;
             text-align: justify;
             visibility: visible;
             transform: translateX(0%);
@@ -253,28 +259,30 @@ $city = get_theme_file_uri('assets/images/river-city.jpg');
         }
 
         $(document).ready(function () {
-
+            $('.leader-img').each(function (img) {
+                $(this).attr('src', $(this).data('src'));
+            });
         });
 
         $(function () {
-            $.scrollify({
-                section: ".section",
-                scrollSpeed: 1500,
-                offset : -126,
-                easing: "swing",
-                scrollbars: false,
-                overflowScroll: false,
-                after: function (index, section) {
-                    const nextSection = $($(section).get(index));
-                },
-                before:function(i,panels) {
-                },
-                afterRender:function() {
-                    $('.leader-img').each(function (img) {
-                        $(this).attr('src', $(this).data('src'));
-                    });
-                }
-            });
+            // $.scrollify({
+            //     section: ".section",
+            //     scrollSpeed: 1500,
+            //     // offset : -126,
+            //     easing: "swing",
+            //     scrollbars: false,
+            //     overflowScroll: false,
+            //     after: function (index, section) {
+            //         const nextSection = $($(section).get(index));
+            //     },
+            //     before:function(i,panels) {
+            //     },
+            //     afterRender:function() {
+            //         $('.leader-img').each(function (img) {
+            //             $(this).attr('src', $(this).data('src'));
+            //         });
+            //     }
+            // });
             // $.scrollify.move(window.location.hash);
             // console.log(window.location.hash)
         });

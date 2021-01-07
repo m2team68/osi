@@ -15,17 +15,24 @@ $aboutUs4Bg = get_theme_file_uri('assets/images/about_us_4_bg.jpg');
             color: #515151;
         }
         .about-us-label {
+            font-family: lyon, 'sans-serif';
             position: absolute;
             right: 50px;
             top: 300px;
+        }
+        .about-us-label > div {
+            font-family: lyon, 'sans-serif';
         }
         .section-overlay {
             background: #00000026;
         }
         .about-us-label .about {
+            font-size: 5vw;
+            line-height: 100%;
         }
         .about-us-label .us {
-            height: 180px;
+            font-size: 13vw;
+            line-height: 100%;
         }
         .about-us-desc {
             position: absolute;
@@ -103,10 +110,20 @@ $aboutUs4Bg = get_theme_file_uri('assets/images/about_us_4_bg.jpg');
             top: 4px;
             right: calc(100% - 6px);
         }
+        .first_page .label-border-key-visual::after {
+            content: "";
+            position: absolute;
+            width: 172px;
+            height: calc(100% + 10px);
+            transform: skew(-30deg);
+            background: 0 0;
+            border: #f27126 15px solid;
+            top: -20px;
+        }
     </style>
 
     <div id="about-us">
-        <div class="section" data-section-name="first_page" style="background-image: url('<?= $aboutUsBg ?>')">
+        <div class="section first_page" data-section-name="first_page" style="background-image: url('<?= $aboutUsBg ?>')">
             <div class="section-overlay"></div>
             <div class="about-us-label label-border-key-visual">
                 <div class="about osi-label-gray">

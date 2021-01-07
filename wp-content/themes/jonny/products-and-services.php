@@ -62,15 +62,15 @@ $operation = get_theme_file_uri('assets/images/operation.png');
             justify-content: start;
         }
         .pas_extra .up {
-            font-size: 115px;
-            line-height: 115px;
+            font-size: 80px;
+            line-height: 100%;
         }
         #products-services p {
             color: var(--osi-darkgray);
         }
         .pas_extra .pas-label.label-border-key-visual::after {
             width: 120px;
-            height: 230px;
+            height: 165px;
             right: unset;
             left: 60px;
         }
@@ -83,12 +83,12 @@ $operation = get_theme_file_uri('assets/images/operation.png');
             justify-content: center;
         }
         .pas_3 .pas-label .down {
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 40px;
+            line-height: 100%;
         }
         .pas_3 .pas-label.label-border-key-visual::after {
             width: 120px;
-            height: 195px;
+            height: 160px;
             right: unset;
             left: 60px;
         }
@@ -103,7 +103,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         }
         .pas_5 .pas-label .up::after {
             content: "&";
-            font-size: 70px;
+            font-size: 50px;
             position: absolute;
             bottom: 60px;
             left: 160px;
@@ -111,7 +111,7 @@ $operation = get_theme_file_uri('assets/images/operation.png');
         }
         .pas_6 .pas-label .up::after {
             content: "&";
-            font-size: 70px;
+            font-size: 50px;
             position: absolute;
             bottom: 70px;
             left: 200px;
@@ -126,8 +126,8 @@ $operation = get_theme_file_uri('assets/images/operation.png');
             /*flex: unset;*/
         }
         .pas_7 .pas-label .up {
-            font-size: 100px;
-            line-height: 100px;
+            font-size: 80px;
+            line-height: 100%;
         }
         .pas_7 .section-content-right {
             align-items: flex-end;
@@ -137,6 +137,12 @@ $operation = get_theme_file_uri('assets/images/operation.png');
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+        .section-content-left p {
+            font-size: 20px;
+        }
+        .pas-label > div.up, .pas-label > div.down {
+            font-size: 60px !important;
         }
     </style>
 
