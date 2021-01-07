@@ -109,24 +109,6 @@ if (isset($fullTitle[1])) {
     </style>
 
     <div id="osi-single">
-        <div data-section-name="single" class="section ol" style="background-color; black, background-size: cover">
-            <div class="section-overlay"></div>
-            <div class="section-content">
-                <div class="page-label label-border-key-visual flip">
-                    <div class="up osi-label-gray">
-                        <?= $up ?>
-                    </div>
-                    <?php if (isset($down)) : ?>
-                        <div class="down osi-label-darkgray label-thin-border">
-                            <?= $down ?>
-                        </div>
-                    <?php endif; ?>
-                </div>
-                <div class="page-desc about-us-desc">
-                    <?php the_content(); ?>
-                </div>
-            </div>
-        </div>
         <div class="info-section">
             <div class="text-center">
                 <h1>Where to find us</h1>
@@ -169,6 +151,24 @@ if (isset($fullTitle[1])) {
                             <iframe style="flex: 1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7446.480371937826!2d105.7934246!3d21.0630671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0b737fdff3%3A0xdcab1384832f79e6!2zUGjDuiBN4bu5IENvbXBsZXggTjAxIFQ0!5e0!3m2!1sen!2s!4v1609910084143!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div data-section-name="single" class="section ol" style="background-color; black, background-size: cover">
+            <div class="section-overlay"></div>
+            <div class="section-content">
+                <div class="page-label label-border-key-visual flip">
+                    <div class="up osi-label-gray">
+                        <?= $up ?>
+                    </div>
+                    <?php if (isset($down)) : ?>
+                        <div class="down osi-label-darkgray label-thin-border">
+                            <?= $down ?>
+                        </div>
+                    <?php endif; ?>
+                </div>
+                <div class="page-desc about-us-desc">
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>
