@@ -165,7 +165,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                         </div>
 
                         <div class="mission-details">
-                            <img width="90%" src="<?= $investment ?>" alt="">
+                            <img width="60%" src="<?= $investment ?>" alt="">
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                         </div>
 
                         <div class="mission-details">
-                            <img width="90%" src="<?= $development ?>" alt="">
+                            <img width="60%" src="<?= $development ?>" alt="">
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                         </div>
 
                         <div class="mission-details">
-                            <img width="90%" src="<?= $advisory ?>" alt="">
+                            <img width="60%" src="<?= $advisory ?>" alt="">
                         </div>
                     </div>
                 </div>
