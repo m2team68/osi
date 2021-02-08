@@ -233,7 +233,7 @@ $leaders = [
 
             <div class="ab-content">
                 <div class="title">
-                    <span>ABOUT US</span>
+                    <span>OUR COMPANY</span>
                 </div>
 
                 <div class="desc">

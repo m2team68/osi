@@ -1102,3 +1102,21 @@ p {
     width: 40px;
     left: calc(-40px - 3px - 5px);
 }
+
+.osi-bullet-single {
+    width: 30px;
+    height: 0px;
+    border: var(--osi-orange) thin solid;
+    position: relative;
+}
+
+.osi-bullet-single:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    position: absolute;
+    left: calc(100% - 5.5px);
+    top: -6px;
+    border: var(--osi-orange) thin solid;
+}

@@ -1,4 +1,4 @@
-<?php /* Template Name: Products and Services */ ?>
+
 <?php
 get_header();
 $pasBg = get_theme_file_uri('assets/images/pas_bg.jpg');
