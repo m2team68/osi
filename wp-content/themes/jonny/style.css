@@ -24,6 +24,11 @@ Text Domain: jonny
 }
 
 @font-face {
+    font-family: 'Constantia';
+    src: url('fonts/Constantia.ttf');
+    font-display: swap;
+}
+@font-face {
     font-family: 'akkurat';
     src: url('fonts/AkkRg.woff');
     font-display: swap;
@@ -34,7 +39,7 @@ Text Domain: jonny
     font-display: swap;
 }
 * {
-    font-family: akkurat, 'sans-serif';
+    font-family: 'Constantia', Arial;
     line-height: 1.5;
 }
 
@@ -1060,4 +1065,40 @@ p {
 .wpcf7 input[type=text], .wpcf7 input[type=address], .wpcf7 input[type=url], .wpcf7 input[type=password], .wpcf7 input[type=email], .wpcf7 input[type=search], .wpcf7 input[type=tel], .wpcf7 select, .wpcf7 textarea {
     background-color: #fff;
     color: #333;
+}
+
+.osi-bullet {
+    position: relative;
+    margin-left: calc(40px + 8px);
+    padding-left: 10px;
+}
+
+.osi-bullet:before {
+    content: "";
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    left: calc(-20px - 3px - 5px);
+    top: calc(5px + 4px);
+    border-top: var(--osi-orange) 1px solid;
+}
+
+.osi-bullet:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -13px;
+    top: 5px;
+    border: var(--osi-orange) thin solid;
+}
+
+.osi-bullet.animated:before {
+    width: 0;
+}
+
+.osi-bullet.animated.active:before {
+    width: 40px;
+    left: calc(-40px - 3px - 5px);
 }
