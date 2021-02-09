@@ -253,6 +253,15 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                     </div>
                 </div>
             </div>
+
+            <a class="cta-btn" href="/portfolio" style="text-shadow: 2px 2px 6px black;">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+                OUR PORTFOLIO
+            </a>
         </div>
     </div>
 

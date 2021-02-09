@@ -325,6 +325,15 @@ $leaders = [
                     </div>
                 </div>
             </div>
+
+            <a class="cta-btn" href="/products-services">
+                <div class="cta-icon">
+                    <svg height="46" width="45" style="position: absolute; z-index: 5;">
+                        <circle class="circle" cx="19.6" cy="19.4" r="20" fill-opacity="0"/>
+                    </svg>
+                </div>
+		        OUR BUSINESS
+            </a>
         </div>
     </div>
 
