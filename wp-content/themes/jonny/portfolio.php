@@ -88,8 +88,10 @@ $osiTower = get_theme_file_uri('assets/images/advisory.jpg');
 			<div class="cons-desc">
 				<span style="font-size: 32px">Residential</span> <br>
 				<span style="font-size: 24px">Floral Garden</span> <br>
-				Project: Office building <br>
-				Status: On-going
+                Project: Low-rise residential <br>
+                Location: Bac Tu Liem district <br>
+                Land area: 2.6ha <br>
+                Status: Under construction
 			</div>
 		</div>
 		<div class="section commerical" data-section-name="commerical"
@@ -98,10 +100,8 @@ $osiTower = get_theme_file_uri('assets/images/advisory.jpg');
 			<div class="cons-desc">
 				<span style="font-size: 32px">Commerical</span> <br>
 				<span style="font-size: 24px">OSI Tower</span> <br>
-				Project: Low-rise residential <br>
-				Location: Bac Tu Liem district <br>
-				Land area: 2.6ha <br>
-				Status: Under construction
+                Project: Office building <br>
+                Status: On-going
 			</div>
 
 			<a class="cta-btn" href="/contacts" style="text-shadow: 2px 2px 6px black;">
