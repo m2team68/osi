@@ -398,7 +398,7 @@ $leaders = [
                 'type': 'MR.',
                 'name': 'TRAN VIET DUNG',
                 'role': 'Vice Chairman cum General Director',
-                'desc': 'Dzung has been in the real estate industry for more than 15 years. He has extensive real estate development experience, ranging from project establishment, licensing, sales & marketing and project development.'
+                'desc': 'Dzung has been in the real estate industry for more than 15 years. He has extensive real estate development experience, ranging from project establishment, licensing, sales & marketing and project development. He has played various important roles in many major real estate investment and development deals in Hanoi, such as Pacific Place, Hoang Thanh Tower, Premier Residences, Rose Valley and The One West Lake... Dzung holds a B.E Degree from the Foreign Trade University, Hanoi and an MBA from La Trobe University, Australia.'
             },
             {
                 'image': '<?= $huong ?>',
