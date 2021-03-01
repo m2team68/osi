@@ -244,7 +244,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                 <div class="right" style="background-image: url(<?= $missionBg ?>); background-size: cover">
                     <div class="right-content">
                         <div class="right-title">
-                            We provide a variety of project development services, ranging from market research, design concept, comprehensive financial balancing solution, sales and marketing plan during the and operation upon project execution and finalisation. We apply our expertise across various sectors of the industry including residential, office and mixed-use.
+                            With a wide range of relationship and deep understanding of the laws and policy, we are confident in rendering business solution to all foreign investors who intents to invest in Vietnam market.
                         </div>
 
                         <div class="mission-details">

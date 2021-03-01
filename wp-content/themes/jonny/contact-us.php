@@ -102,7 +102,6 @@ if (isset($fullTitle[1])) {
         .page-desc {
             transition: all 0.45s cubic-bezier(.165, .84, .44, 1);
             font-size: 24px;
-            width: 80%;
             align-self: center;
         }
 
@@ -115,7 +114,7 @@ if (isset($fullTitle[1])) {
         }
 
         .info-section {
-            width: 100%;
+            flex: 1;
         }
 
         #osi-single .section {
@@ -125,7 +124,12 @@ if (isset($fullTitle[1])) {
         .info-details > div {
             padding: 10px;
             flex: 1;
-            text-align: center;
+        }
+
+        .info-details h5 {
+            line-height: 100%;
+            margin-bottom: 10px;
+            margin-top: 0px;
         }
     </style>
 
@@ -136,60 +140,53 @@ if (isset($fullTitle[1])) {
                 <div class="text-center" style="display: block; text-align:center; font-size: 72px; width: 100%">
 					<?= $up ?>
                 </div>
-
-                <div class="info-section">
-                    <div class="container-fluid text-center">
-                        <div style="display: inline-flex; width: 80%">
-                            <div style="width: 100%; float: left" class="text-left">
-                                <!--                                <div class="text-center">-->
-                                <!--                                    <h4>INFORMATION</h4>-->
-                                <!--                                </div>-->
-                                <div class="info-details" style="display: flex; width: 100%;">
-                                    <div>
+                <div style="display: flex; width: 100%">
+                    <div class="info-section">
+                        <div class="container-fluid text-center">
+                            <div style="display: inline-flex; width: 80%">
+                                <div style="width: 100%; float: left" class="text-left">
+                                    <!--                                <div class="text-center">-->
+                                    <!--                                    <h4>INFORMATION</h4>-->
+                                    <!--                                </div>-->
+                                    <div class="info-details"
+                                         style="display: flex; width: 100%; flex-direction: column">
                                         <div>
-                                            <h5>Orient Success International Investment JSC.,</h5>
+                                            <div>
+                                                <h5>Orient Success International Investment JSC.,</h5>
+                                            </div>
+                                            <div>
+                                                3rd Floor, N01-T4 Building Diplomatic Corps Urban Area, <br>
+                                                Xuân Tảo Ward, Bắc Từ Liêm District, <br>
+                                                Hà Nội
+                                            </div>
                                         </div>
                                         <div>
-                                            3rd Floor, N01-T4 Building Diplomatic Corps Urban Area, <br>
-                                            Xuân Tảo Ward, Bắc Từ Liêm District, <br>
-                                            Hà Nội
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div>
-                                            <h5>Phone</h5>
+                                            <div>
+                                                <h5>Phone</h5>
+                                            </div>
+                                            <div>
+                                                +(84-24) 3207 7272
+                                            </div>
                                         </div>
                                         <div>
-                                            +(84-24) 3207 7272
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div>
-                                            <h5>Mail</h5>
-                                        </div>
-                                        <div>
-                                            info@osi.com.vn
+                                            <div>
+                                                <h5>Mail</h5>
+                                            </div>
+                                            <div>
+                                                info@osi.com.vn
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--                            <div style="width: 60%; display: inline-block">-->
-                        <!--                                <div class="text-center">-->
-                        <!--                                    <h4>MAP</h4>-->
-                        <!--                                </div>-->
-                        <!--                                <div style="display: flex">-->
-                        <!--                                    <iframe style="flex: 1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7446.480371937826!2d105.7934246!3d21.0630671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0b737fdff3%3A0xdcab1384832f79e6!2zUGjDuiBN4bu5IENvbXBsZXggTjAxIFQ0!5e0!3m2!1sen!2s!4v1609910084143!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
                     </div>
-                </div>
 
-                <div class="text-center" style="width: 100%">
-                    <h1>Talk To Us</h1>
-                </div>
-                <div class="page-desc about-us-desc" style="margin-bottom: 20px">
-					<?php the_content(); ?>
+                    <div style="flex: 1">
+                        <div class="page-desc about-us-desc" style="margin-bottom: 20px">
+							<?php the_content(); ?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
