@@ -1,7 +1,7 @@
 <?php /* Template Name: About Us */ ?>
 <?php
 get_header();
-$aboutUsBg = get_theme_file_uri('assets/images/river-city.jpg');
+$aboutUsBg = get_theme_file_uri('assets/images/OUR_COMPANY_BG.jpg');
 $aboutUs2Bg = get_theme_file_uri('assets/images/high-tower.png');
 $logo = get_theme_file_uri('assets/images/logo.svg');
 $buildings = get_theme_file_uri('assets/images/buildings.png');
