@@ -19,7 +19,7 @@ $development = get_theme_file_uri('assets/images/development.svg');
 $developmentBg = get_theme_file_uri('assets/images/development.jpg');
 
 $advisory = get_theme_file_uri('assets/images/advisory.svg');
-$advisoryBg = get_theme_file_uri('assets/images/advisory.jpg');
+$advisoryBg = get_theme_file_uri('assets/images/advisory1.jpg');
 
 
 $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
@@ -219,7 +219,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
 
         <div data-section-name="advisory" class="section development">
             <div class="investment-content">
-                <div class="left" style="background-image: url(<?= $advisoryBg ?>); background-size: cover">
+                <div class="left" style="background-image: url(<?= $advisoryBg ?>); background-size: cover; background-position: center">
                     <div class="section-overlay"></div>
                     <div class="left-content">
                         <div class="left-title">
