@@ -500,7 +500,7 @@ function theme_name_register_theme_customizer($wp_customize)
 // Sanitize text
 function sanitize_text($text)
 {
-    return sanitize_text_field($text);
+    return $text;
 }
 
 add_action('customize_register', 'theme_name_register_theme_customizer');
