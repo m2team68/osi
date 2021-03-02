@@ -237,7 +237,7 @@ $leaders = [
                 </div>
 
                 <div class="desc">
-                    <span>We are integrated property developer who creates the highest value to stakeholders by providing outstanding products and services with infinite resources.</span>
+                    <span>We are an integrated property developer, constantly striving to create the highest value for partners and customers by providing high quality products and services.</span>
                 </div>
             </div>
 
@@ -407,6 +407,14 @@ $leaders = [
                 'name': 'CHU VAN HUONG',
                 'role': 'Investment Director',
                 'desc': 'Huong is one of the key members joining OSI since the Company\'s first establishment. She is in charge of managing and monitoring investment activities and also plays an active role in the other aspects of the company\'s business. Prior to working at OSI, Huong worked for Vietnam Asset Development, CBRE Vietnam and PriceWaterhouseCoopers. Her experience encompass feasibility studies, financial modeling, valuation and development analysis of real estate projects as well as extending to accounting, finance and business advisory services.'
+            },
+            {
+                'image': '<?= $kim ?>',
+                'tag': 'kim',
+                'type': 'MR.',
+                'name': 'MIKE HSU',
+                'role': 'Member of Board of Directors',
+                'desc': 'Mike has over 30 years experience in real estate development in Taiwan and more than 15 years experience in Vietnam market. He always keeps leadership role in various companies: Taipei Housing, HAWA development; Viet Fortune, Chang Ting Development... Total sales value for projects in which he involved in Taiwan exceed US$1 bn. In Vietnam, he involved and developed projects of nearly US$2 bn in value, including the well-known Pacific Place. Mike has an MBA from Cheng Chi university, MSC in Hotel Management and a B.A degree in architecture.'
             },
             {
                 'image': '<?= $kim ?>',

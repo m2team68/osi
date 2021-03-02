@@ -161,7 +161,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                 <div class="right" style="background-image: url(<?= $missionBg ?>); background-size: cover">
                     <div class="right-content">
                         <div class="right-title">
-                            We seek to utilise our expertise to generate attractive returns for our investors by investing in high-quality assets with outstanding growth potential. Backed by the existing capability and wide relationship with many domestic and foreign partners, we prioritize Real Estate Investment as the key business of the company.
+                            We provide a variety of project development services, ranging from market research, design concept, comprehensive financial balancing solution, sales and marketing plan during the and operation upon project execution and finalisation.
                         </div>
 
                         <div class="mission-details">
