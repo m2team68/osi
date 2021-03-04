@@ -61,7 +61,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
             line-height: 100%;
             margin-bottom: 50px;
             text-align: center;
-            color: var(--osi-orange);
+            color: var(--osi-green);
         }
 
         .left-desc {
@@ -72,14 +72,18 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
         .left-desc-center {
             padding: 0 50px;
             position: relative;
+            flex: 1;
+            text-align: center;
         }
 
         .left-desc-left, .left-desc-right {
             font-size: 32px;
+            width: 30%;
         }
 
         .left-desc-left {
             text-align: right;
+            width: 30%;
         }
 
         .left-desc-center .osi-bullet-single {
@@ -93,13 +97,18 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
             left: 0;
             right: 0;
             margin: auto;
+            border: var(--osi-green) thin solid;
+        }
+
+        .left-desc-center .osi-bullet-single.bullet-up:after {
+            border: var(--osi-green) thin solid;
         }
 
         .left-desc-center .osi-bullet-single.bullet-left {
             transform: rotate(180deg);
             position: absolute;
             top: 0;
-            left: 10px;
+            left: 40px;
             bottom: 0;
             margin: auto;
         }
@@ -107,7 +116,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
         .left-desc-center .osi-bullet-single.bullet-right {
             position: absolute;
             top: 0;
-            right: 10px;
+            right: 40px;
             bottom: 0;
             margin: auto;
         }
@@ -129,6 +138,10 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
 
         .mission-details {
             text-align: center;
+        }
+
+        .investment-content .section-overlay {
+            background: #000000bd;
         }
     </style>
 

@@ -87,7 +87,7 @@ $osiTower = get_theme_file_uri('assets/images/advisory.jpg');
 			<div class="section-overlay"></div>
 			<div class="cons-desc">
 				<span style="font-size: 32px">Residential</span> <br>
-				<span style="font-size: 24px">Floral Garden</span> <br>
+				<span style="font-size: 24px">Avenue Garden</span> <br>
                 Project: Low-rise residential <br>
                 Location: Bac Tu Liem district <br>
                 Land area: 2.6ha <br>

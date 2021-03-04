@@ -185,6 +185,7 @@ $leaders = [
 
         .leader-gen, .leader-name {
             font-size: 54px;
+            color: var(--osi-green);
         }
 
         .leader-image {
@@ -411,7 +412,7 @@ $leaders = [
             {
                 'image': '<?= $huong ?>',
                 'tag': 'huong',
-                'type': 'MRS.',
+                'type': 'MR.',
                 'name': 'CHU VAN HUONG',
                 'role': 'Investment Director',
                 'desc': 'Huong is one of the key members joining OSI since the Company\'s first establishment. She is in charge of managing and monitoring investment activities and also plays an active role in the other aspects of the company\'s business. Prior to working at OSI, Huong worked for Vietnam Asset Development, CBRE Vietnam and PriceWaterhouseCoopers. Her experience encompass feasibility studies, financial modeling, valuation and development analysis of real estate projects as well as extending to accounting, finance and business advisory services.'

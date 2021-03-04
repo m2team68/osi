@@ -156,8 +156,8 @@ if (isset($fullTitle[1])) {
                                             </div>
                                             <div>
                                                 3rd Floor, N01-T4 Building Diplomatic Corps Urban Area, <br>
-                                                Xuân Tảo Ward, Bắc Từ Liêm District, <br>
-                                                Hà Nội
+                                                Xuan Tao Ward, Bac Tu Liem District, <br>
+                                                Ha Noi
                                             </div>
                                         </div>
                                         <div>

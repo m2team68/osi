@@ -755,7 +755,7 @@ body {
     border-top: #fff 2px solid;
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 0;
 }
 .osi-desc::after {
     content: "";
@@ -763,7 +763,7 @@ body {
     border-top: #fff 2px solid;
     position: absolute;
     bottom: 0;
-    right: 20px;
+    right: 0;
 }
 /*.osi-desc.f-collaboration-desc {*/
 /*    text-align: left;*/
