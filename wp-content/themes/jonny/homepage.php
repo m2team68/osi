@@ -31,6 +31,13 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             object-fit: cover;
             z-index: 1;
         }
+        .osi-text-label {
+            color: var(--osi-green);
+            font-weight: bold;
+        }
+        .section-overlay {
+            background: #000000ad;
+        }
     </style>
     <div id="fullpage">
         <ul class="nav-pagination">

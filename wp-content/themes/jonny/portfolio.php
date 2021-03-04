@@ -101,6 +101,7 @@ $osiTower = get_theme_file_uri('assets/images/advisory.jpg');
 				<span style="font-size: 32px">Commerical</span> <br>
 				<span style="font-size: 24px">OSI Tower</span> <br>
                 Project: Office building <br>
+                Location: Bac Tu Liem district, Hanoi <br>
                 Status: On-going
 			</div>
 
