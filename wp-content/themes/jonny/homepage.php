@@ -31,7 +31,7 @@ $featureExcellency = get_theme_file_uri('assets/images/feature_excellency.jpg');
             object-fit: cover;
             z-index: 1;
         }
-        .osi-text-label {
+        .osi-text-label.f-title {
             color: var(--osi-green);
             font-weight: bold;
         }
