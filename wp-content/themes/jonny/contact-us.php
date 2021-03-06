@@ -156,8 +156,7 @@ if (isset($fullTitle[1])) {
                                             </div>
                                             <div>
                                                 3rd Floor, N01-T4 Building Diplomatic Corps Urban Area, <br>
-                                                Xuan Tao Ward, Bac Tu Liem District, <br>
-                                                Ha Noi
+                                                Xuan Tao Ward, Bac Tu Liem District, HaNoi
                                             </div>
                                         </div>
                                         <div>
@@ -165,7 +164,7 @@ if (isset($fullTitle[1])) {
                                                 <h5>Phone</h5>
                                             </div>
                                             <div>
-                                                +(84-24) 3207 7272
+                                                <a href="tel:+842432077272">+(84) 243.207.72.72</a>
                                             </div>
                                         </div>
                                         <div>
