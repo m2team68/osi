@@ -261,7 +261,7 @@ $leaders = [
 
                         <div class="right-desc">
                             With the goal to become an investment and real estate development company with competitive
-                            strength to compete with big companies on the market, we currently emphasizes on developing
+                            strength to compete with big companies on the market, we currently emphasize on developing
                             high-end projects and providing in-depth investment services
                         </div>
 
