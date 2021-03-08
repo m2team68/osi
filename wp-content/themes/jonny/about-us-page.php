@@ -385,14 +385,14 @@ $leaders = [
         });
 
         const leaders = [
-            {
-                'image': '<?= $linh ?>',
-                'tag': 'linh',
-                'type': 'MR.',
-                'name': 'TRAN TUNG LINH',
-                'role': 'Chairman',
-                'desc': 'Linh has more than 15 years of experience in the investment field. Before joining OSI, he took responsibilities as Chairman cum General Director in Vietnam Asset Development Company, Head of Project Investment Unit at PVI Holdings, General Director of An Hung Urban Investment Company and General Director of PVI Asset Management Company. Mr. Linh was awarded the Chevening Scholarship for the program of Master of Business Administration (major: Finance) at the University of Nottingham, UK. He also graduated with a master’s degree in construction from the University of Korea, Korea',
-            },
+            //{
+            //    'image': '<?//= $linh ?>//',
+            //    'tag': 'linh',
+            //    'type': 'MR.',
+            //    'name': 'TRAN TUNG LINH',
+            //    'role': 'Chairman',
+            //    'desc': 'Linh has more than 15 years of experience in the investment field. Before joining OSI, he took responsibilities as Chairman cum General Director in Vietnam Asset Development Company, Head of Project Investment Unit at PVI Holdings, General Director of An Hung Urban Investment Company and General Director of PVI Asset Management Company. Mr. Linh was awarded the Chevening Scholarship for the program of Master of Business Administration (major: Finance) at the University of Nottingham, UK. He also graduated with a master’s degree in construction from the University of Korea, Korea',
+            //},
             {
                 'image': '<?= $dung ?>',
                 'tag': 'dung',
@@ -401,14 +401,14 @@ $leaders = [
                 'role': 'Vice Chairman cum General Director',
                 'desc': 'Dzung has been in the real estate industry for more than 15 years. He has extensive real estate development experience, ranging from project establishment, licensing, sales & marketing and project development. He has played various important roles in many major real estate investment and development deals in Hanoi, such as Pacific Place, Hoang Thanh Tower, Premier Residences, Rose Valley and The One West Lake... Dzung holds a B.E Degree from the Foreign Trade University, Hanoi and an MBA from La Trobe University, Australia.'
             },
-            {
-                'image': '<?= $kim ?>',
-                'tag': 'kim',
-                'type': 'MR.',
-                'name': 'MIKE HSU',
-                'role': 'Member of Board of Directors',
-                'desc': 'Mike has over 30 years experience in real estate development in Taiwan and more than 15 years experience in Vietnam market. He always keeps leadership role in various companies: Taipei Housing, HAWA development; Viet Fortune, Chang Ting Development... Total sales value for projects in which he involved in Taiwan exceed US$1 bn. In Vietnam, he involved and developed projects of nearly US$2 bn in value, including the well-known Pacific Place. Mike has an MBA from Cheng Chi university, MSC in Hotel Management and a B.A degree in architecture.'
-            },
+            //{
+            //    'image': '<?//= $kim ?>//',
+            //    'tag': 'kim',
+            //    'type': 'MR.',
+            //    'name': 'MIKE HSU',
+            //    'role': 'Member of Board of Directors',
+            //    'desc': 'Mike has over 30 years experience in real estate development in Taiwan and more than 15 years experience in Vietnam market. He always keeps leadership role in various companies: Taipei Housing, HAWA development; Viet Fortune, Chang Ting Development... Total sales value for projects in which he involved in Taiwan exceed US$1 bn. In Vietnam, he involved and developed projects of nearly US$2 bn in value, including the well-known Pacific Place. Mike has an MBA from Cheng Chi university, MSC in Hotel Management and a B.A degree in architecture.'
+            //},
             {
                 'image': '<?= $huong ?>',
                 'tag': 'huong',
