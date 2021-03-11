@@ -416,7 +416,8 @@ $leaders = [
                 'type': 'MS.',
                 'name': 'CHU VAN HUONG',
                 'role': 'Investment Director',
-                'desc': 'Huong is one of the key members joining OSI since the Company\'s first establishment. She is in charge of managing and monitoring investment activities and also plays an active role in the other aspects of the company\'s business. Prior to working at OSI, Huong worked for Vietnam Asset Development, CBRE Vietnam and PriceWaterhouseCoopers. Her experience encompass feasibility studies, financial modeling, valuation and development analysis of real estate projects as well as extending to accounting, finance and business advisory services.'
+                'desc': 'Huong is one of the key members joining OSI since the Company\'s first establishment. She is in charge of managing and monitoring investment activities and also plays an active role in the other aspects of the company\'s business. Prior to working at OSI, Huong worked for Vietnam Asset Development, CBRE Vietnam and PriceWaterhouseCoopers. Her experience encompass feasibility studies, financial modeling, valuation and development analysis of real estate projects as well as extending to accounting, finance and business advisory services.\n' +
+                    ' Huong has a Bachelor of Science in Business Management from King\'s College, University of London, and a Master of Science in Finance from Manchester Business School in the U.K.'
             },
             {
                 'image': '<?= $kim ?>',
@@ -424,7 +425,9 @@ $leaders = [
                 'type': 'MR.',
                 'name': 'KIM YOUNG WOO',
                 'role': 'Operation Director',
-                'desc': 'Before joining OSI, Mr. Kim worked with Daewoo Group from June 1995 until April 2018 (23 years). He started his career in Finance and IR department of Daewoo (1995 ~ 2006). He joined the real estate development team from 2006 and was involved in the many projects acting as project development manager including Cheong Ra Project in Korea in Incheon - Korea, Songdo Global City Project in Incheon - Korea, Weihai Point Golf Course PJ in Weihai - China, LaoLao Resort Project in Saipan - Northern Mariana Islands, District 8 Project in Jakarta - Indonesia.'
+                'desc': 'Before joining OSI, Mr. Kim worked with Daewoo Group from June 1995 until April 2018 (23 years). He started his career in Finance and IR department of Daewoo (1995 ~ 2006). He joined the real estate development team from 2006 and was involved in the many projects acting as project development manager including Cheong Ra Project in Korea in Incheon - Korea, Songdo Global City Project in Incheon - Korea, Weihai Point Golf Course PJ in Weihai - China, LaoLao Resort Project in Saipan - Northern Mariana Islands, District 8 Project in Jakarta - Indonesia.\n' +
+                    ' From 2013 ~ 2017 he worked as CFO cum Development Director of THT Development Co.,Ltd. In Hanoi, Vietnam which were the developer of Starlake Project\n' +
+                    ' Mr. Kim graduated from Sogang University and also studied at Seoul National University Graduate School.'
             },
         ];
 
