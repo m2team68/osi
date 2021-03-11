@@ -174,7 +174,7 @@ $missionBg = get_theme_file_uri('assets/images/mission-bg.png');
                 <div class="right" style="background-image: url(<?= $missionBg ?>); background-size: cover">
                     <div class="right-content">
                         <div class="right-title">
-                            We provide a variety of project development services, ranging from market research, design concept, comprehensive financial balancing solution, sales and marketing plan during the and operation upon project execution and finalisation.
+                            We concentrate on high-end real estate developments within various sectors including residential, Grade-A office building, and commercial facilities. Backed by the existing capability and wide relationship with many domestic and foreign partners, we prioritize Real Estate Investment as the key businesses of the company.
                         </div>
 
                         <div class="mission-details">
