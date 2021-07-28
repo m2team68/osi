@@ -24,14 +24,14 @@ $leaders = [
 		'role' => 'Chairman',
 		'desc' => 'He graduated with Master Degree of Law and Business Administration at Latrobe University, Australia Before he joined OSI International JSC he was the CEO of F.A.I.R.W.A.Y Real-Estate Joint Stock Company and Deputy General Manager of Vietnam Asset Development JSC (VAD). He started his career in Real Estate field since 2004 and until now, he has been leading and directly advising key projects: Pacific Palace in Ly Thuong Kiet, Hoan Kiem, Hanoi, Sai Gon Height, Hochiminh City, The Vista, An Phu, Ho Chi Minh city Mulberry Lane, Ha Dong, Hanoi, Hoang Thanh Tower, Mai Hac De, Hanoi, The Premier Residence, Ton That Thuyet, Hanoi.\n',
 	],
-	[
-		'image' => $dung,
-		'tag' => 'dung',
-		'type' => 'MR.',
-		'name' => 'TRAN VIET DUNG',
-		'role' => 'Vice Chairman',
-		'desc' => 'He graduated with Master Degree of Law and Business Administration at Latrobe University, Australia Before he joined OSI International JSC he was the CEO of F.A.I.R.W.A.Y Real-Estate Joint Stock Company and Deputy General Manager of Vietnam Asset Development JSC (VAD). He started his career in Real Estate field since 2004 and until now, he has been leading and directly advising key projects: Pacific Palace in Ly Thuong Kiet, Hoan Kiem, Hanoi, Sai Gon Height, Hochiminh City, The Vista, An Phu, Ho Chi Minh city Mulberry Lane, Ha Dong, Hanoi, Hoang Thanh Tower, Mai Hac De, Hanoi, The Premier Residence, Ton That Thuyet, Hanoi.'
-	],
+//	[
+//		'image' => $dung,
+//		'tag' => 'dung',
+//		'type' => 'MR.',
+//		'name' => 'TRAN VIET DUNG',
+//		'role' => 'Vice Chairman',
+//		'desc' => 'He graduated with Master Degree of Law and Business Administration at Latrobe University, Australia Before he joined OSI International JSC he was the CEO of F.A.I.R.W.A.Y Real-Estate Joint Stock Company and Deputy General Manager of Vietnam Asset Development JSC (VAD). He started his career in Real Estate field since 2004 and until now, he has been leading and directly advising key projects: Pacific Palace in Ly Thuong Kiet, Hoan Kiem, Hanoi, Sai Gon Height, Hochiminh City, The Vista, An Phu, Ho Chi Minh city Mulberry Lane, Ha Dong, Hanoi, Hoang Thanh Tower, Mai Hac De, Hanoi, The Premier Residence, Ton That Thuyet, Hanoi.'
+//	],
 	[
 		'image' => $huong,
 		'tag' => 'huong',
@@ -394,14 +394,14 @@ $leaders = [
             //    'role': 'Chairman',
             //    'desc': 'Linh has more than 15 years of experience in the investment field. Before joining OSI, he took responsibilities as Chairman cum General Director in Vietnam Asset Development Company, Head of Project Investment Unit at PVI Holdings, General Director of An Hung Urban Investment Company and General Director of PVI Asset Management Company. Mr. Linh was awarded the Chevening Scholarship for the program of Master of Business Administration (major: Finance) at the University of Nottingham, UK. He also graduated with a master’s degree in construction from the University of Korea, Korea',
             //},
-            {
-                'image': '<?= $dung ?>',
-                'tag': 'dung',
-                'type': 'MR.',
-                'name': 'TRAN VIET DUNG',
-                'role': 'Vice Chairman cum General Director',
-                'desc': 'Dzung has been in the real estate industry for more than 15 years. He has extensive real estate development experience, ranging from project establishment, licensing, sales & marketing and project development. He has played various important roles in many major real estate investment and development deals in Hanoi, such as Pacific Place, Hoang Thanh Tower, Premier Residences, Rose Valley and The One West Lake... Dzung holds a B.E Degree from the Foreign Trade University, Hanoi and an MBA from La Trobe University, Australia.'
-            },
+//            {
+//                'image': '<?= $dung ?>',
+//                'tag': 'dung',
+//                'type': 'MR.',
+//                'name': 'TRAN VIET DUNG',
+//                'role': 'Vice Chairman cum General Director',
+//                'desc': 'Dzung has been in the real estate industry for more than 15 years. He has extensive real estate development experience, ranging from project establishment, licensing, sales & marketing and project development. He has played various important roles in many major real estate investment and development deals in Hanoi, such as Pacific Place, Hoang Thanh Tower, Premier Residences, Rose Valley and The One West Lake... Dzung holds a B.E Degree from the Foreign Trade University, Hanoi and an MBA from La Trobe University, Australia.'
+//            },
             {
                 'image': '<?= $mike ?>',
                 'tag': 'mike',
